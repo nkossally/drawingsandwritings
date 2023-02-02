@@ -1,18 +1,20 @@
 import React from "react";
 import { useLocation } from "react-router-dom";
+import {  Link } from "react-router-dom";
 
 const NavBar = () => {
   const location = useLocation();
+  console.log(location)
 
   const link =
     location.pathname === "/essays" ? (
-      <a class="top-nav-button" href="cartoons">
+      <Link class="top-nav-button" to="cartoons">
         Cartoons
-      </a>
+      </Link>
     ) : (
-      <a class="top-nav-button" href="essays">
+      <Link class="top-nav-button" to="essays">
         Essays
-      </a>
+      </Link>
     );
 
   if (location.pathname === "/" || location.pathname === "/index") {
@@ -20,9 +22,9 @@ const NavBar = () => {
   }
   return (
     <div class="top-navbar">
-      <a class="top-nav-button" href="index">
+      <Link class="top-nav-button" to="index">
         Homepage
-      </a>
+      </Link>
       {link}
     </div>
   );

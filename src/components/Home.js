@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Home = props => {
     console.log(props);
@@ -8,12 +9,12 @@ const Home = props => {
       <div class="homepage-outer-container">
         <div class="container">
           <div class="homepage-container">
-            <a class="homepage-links" href="/cartoons">
+            <Link class="homepage-links" to="/cartoons">
               Cartoons
-            </a>
-            <a class="homepage-links" href="/essays">
+            </Link>
+            <Link class="homepage-links" to="/essays">
               Essays
-            </a>
+            </Link>
           </div>
         </div>
       </div>
