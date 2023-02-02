@@ -1,16 +1,4 @@
-/* body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-} */
 
 a,
 a:link,
@@ -70,7 +58,6 @@ html {
 	font-family: rockwell;
 	font-size: 16px;
 	line-height: 1.5;
-	padding: 10px;
 }
 
 .top-navbar {
@@ -109,7 +96,6 @@ html {
 	align-self: auto;
 	display: flex;
 	align-items: center;
-	border-radius: 10px;
 	justify-content: center;
 	font-family: rockwell;
 	font-size: 20px;

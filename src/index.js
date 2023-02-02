@@ -13,9 +13,6 @@ import {
 } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
-// const location = useLocation();
-// console.log("useLocationfsf", location);
-// const blarg = ()=>{
 
 root.render(
 
