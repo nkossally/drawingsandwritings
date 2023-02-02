@@ -7,28 +7,24 @@ import NavBar from "./components/NavBar";
 import Essays from "./components/Essays";
 import Cartoons from "./components/Cartoons";
 
-
-import {
-  useLocation,
-} from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
-
   <React.StrictMode>
     <BrowserRouter>
-    <NavBar />
+      <NavBar />
 
       <Routes>
-
         <Route path="/" element={<Home />} />
         <Route path="/index" element={<Home />} />
 
-          <Route path="essays" element={<Essays />} />
-          <Route path="cartoons" element={<Cartoons />} />
+        <Route path="essays" element={<Essays />} />
+        <Route path="cartoons" element={<Cartoons />} />
 
-          {/* <App /> */}
+        {/* <App /> */}
       </Routes>
     </BrowserRouter>
-  </React.StrictMode>)
+  </React.StrictMode>
+);
