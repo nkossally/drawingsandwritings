@@ -1,4 +1,4 @@
-body {
+/* body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +10,173 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+} */
+
+a,
+a:link,
+a:visited,
+a:hover,
+a:active {
+	text-decoration: inherit;
+	font-weight: inherit;
+	color: inherit;
 }
+
+html {
+	scroll-behavior: smooth;
+}
+
+.outer-container {
+	background: #cde1ff;
+
+	width: 100vw;
+	display: flex;
+}
+
+.homepage-outer-container {
+	width: 100vw;
+	background: #FFEBCD;
+	display: flex;
+	height: 100vh;
+}
+
+.container {
+	display: flex;
+	font-family: rockwell;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.inner-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.essays {
+	display: flex;
+	flex-direction: column;
+	font-size: 16px;
+	line-height: 1.5;
+	background: #FFEBCD;
+	padding: 10px 10px;
+	margin-left: 100px;
+}
+
+.cartoons-container{
+	background: #cde1ff;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	font-family: rockwell;
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 10px;
+}
+
+.top-navbar {
+	display: flex;
+	width: 100vw;
+	background: #cde1ff;
+	flex-direction: row;
+	justify-content: space-between;
+
+}
+
+.navbar {
+	position: fixed;
+	background: #cde1ff;
+	display: flex;
+	flex-direction: column;
+	width: 90px;
+}
+
+.nav-button {
+	height: 100px;
+	width: 100%;
+	align-content: center;
+	align-self: auto;
+	display: flex;
+	align-items: center;
+	text-indent: 5px;
+	font-size: 18px;
+
+}
+
+.top-nav-button {
+	height: 70px;
+	width: 100px;
+	align-content: center;
+	align-self: auto;
+	display: flex;
+	align-items: center;
+	border-radius: 10px;
+	justify-content: center;
+	font-family: rockwell;
+	font-size: 20px;
+	margin: 0 20px;
+
+}
+
+.top-nav-button:hover {
+	color: #F4A460;
+}
+
+.nav-button:hover {
+	color: #F4A460;
+}
+
+.body-text {
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.title {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 2;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.divider {
+	height: .1px;
+	border: .5px dotted silver;
+	margin: 30px 0;
+}
+
+.source-link {
+	color: black;
+}
+
+.source-link:hover {
+	text-decoration: underline;
+}
+
+.comic {
+	margin: 10px 10px;
+	background: white;
+}
+
+.homepage-container{
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	align-items: center;
+}
+
+.homepage-links{
+	padding: 70px 0;
+	font-size: 20px;
+}
+
+.homepage-links:hover {
+	color: #F4A460;
+}
+
+@media(max-width: 600px) {
+	.container {
+		padding: 0;
+	}
+  }

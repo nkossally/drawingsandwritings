@@ -1,17 +1,37 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import "./index.css";
+import Home from "./components/Home";
+import NavBar from "./components/NavBar";
+import Essays from "./components/Essays";
+import Cartoons from "./components/Cartoons";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+
+import {
+  useLocation,
+} from 'react-router-dom';
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+// const location = useLocation();
+// console.log("useLocationfsf", location);
+// const blarg = ()=>{
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
-);
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+  <React.StrictMode>
+    <BrowserRouter>
+    <NavBar />
+
+      <Routes>
+
+        <Route path="/" element={<Home />} />
+        <Route path="/index" element={<Home />} />
+
+          <Route path="essays" element={<Essays />} />
+          <Route path="cartoons" element={<Cartoons />} />
+
+          {/* <App /> */}
+      </Routes>
+    </BrowserRouter>
+  </React.StrictMode>)
