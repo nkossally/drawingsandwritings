@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/drawingsandwritings/static/css/main.dfdab7be.css",
+    "main.js": "/drawingsandwritings/static/js/main.51338a44.js",
+    "index.html": "/drawingsandwritings/index.html",
+    "main.dfdab7be.css.map": "/drawingsandwritings/static/css/main.dfdab7be.css.map",
+    "main.51338a44.js.map": "/drawingsandwritings/static/js/main.51338a44.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dfdab7be.css",
+    "static/js/main.51338a44.js"
+  ]
+}
