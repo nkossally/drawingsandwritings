@@ -27,7 +27,7 @@ class Cartoons extends React.Component {
     //   }
     // }
 
-    return <div class="cartoons-container">
+    return <div class="cartoons-container below-nav-bar">
       <Link className="nav-link centered-container" to="/cartoon">
       View as slides
       </Link>

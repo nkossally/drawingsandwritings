@@ -31,9 +31,9 @@ const Cartoon = () => {
   const prevComic = comicNumber - 1 === 0 ? 15 : comicNumber - 1;
 
   return (
-    <div class="cartoons-container full-height vertically-centered">
-            <Link className="nav-link centered-container" to="/cartoons">
-      View all
+    <div class="cartoons-container full-height vertically-centered below-nav-bar">
+      <Link className="nav-link centered-container" to="/cartoons">
+        View all
       </Link>
       {comicNumber === 15 && (
         <img src={comic_15} className="comic" key={"cartoon 15.png"} />
@@ -81,8 +81,14 @@ const Cartoon = () => {
         <img src={comic_1} className="comic" key={"/cartoon 1.png"} />
       )}
       <div className="buttons-container">
-        <Link className="nav-link" to={`/cartoon-${prevComic}`}> previous</Link>
-        <Link className="nav-link" to={`/cartoon-${nextComic}`}> next</Link>
+        <Link className="nav-link" to={`/cartoon-${prevComic}`}>
+          {" "}
+          previous
+        </Link>
+        <Link className="nav-link" to={`/cartoon-${nextComic}`}>
+          {" "}
+          next
+        </Link>
       </div>
     </div>
   );

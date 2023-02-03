@@ -1,4 +1,4 @@
-
+/* top nav bar height: 70px */
 
 a,
 a:link,
@@ -16,8 +16,8 @@ html {
 
 .outer-container {
 	background: #cde1ff;
-
 	width: 100vw;
+	height: 100vh;
 	display: flex;
 }
 
@@ -50,7 +50,7 @@ html {
 	margin-left: 100px;
 }
 
-.cartoons-container{
+.cartoons-container {
 	background: #cde1ff;
 	width: 100vw;
 	display: flex;
@@ -60,34 +60,26 @@ html {
 	line-height: 1.5;
 }
 
-.cartoons-container{
-	background: #cde1ff;
-	width: 100vw;
-	display: flex;
-	flex-direction: column;
-	font-family: rockwell;
-	font-size: 16px;
-	line-height: 1.5;
-}
-
-.full-height{
+.full-height {
 	height: 100vh;
 }
 
 .top-navbar {
+	position: fixed;
 	display: flex;
 	width: 100vw;
 	background: #cde1ff;
 	flex-direction: row;
 	justify-content: space-between;
+	height: 70px;
 }
 
 .navbar {
 	position: fixed;
-	background: #cde1ff;
 	display: flex;
 	flex-direction: column;
-	width: 90px;
+	max-width: 90px;
+	margin-top: 70px;
 }
 
 .nav-button {
@@ -112,7 +104,7 @@ html {
 	justify-content: center;
 	font-family: rockwell;
 	font-size: 20px;
-	margin: 0 20px;
+	margin: 5px 20px;
 
 }
 
@@ -154,18 +146,18 @@ p {
 }
 
 .comic {
-	margin: 10px 10px;
+	margin: 10px 40px;
 	background: white;
 }
 
-.homepage-container{
+.homepage-container {
 	display: flex;
 	flex-direction: column;
 	width: 100vw;
 	align-items: center;
 }
 
-.homepage-links{
+.homepage-links {
 	padding: 70px 0;
 	font-size: 20px;
 }
@@ -174,13 +166,16 @@ p {
 	color: #F4A460;
 }
 
-.buttons-container{
+.buttons-container {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 	padding: 30px 10px;
 }
 
+.nav-link {
+	margin: 0 40px;
+}
 
 .nav-link:hover {
 	color: #F4A460;
@@ -195,14 +190,22 @@ p {
 	font-style: italic;
 }
 
-.vertically-centered{
+.vertically-centered {
 	display: flex;
 	justify-content: center;
 }
+
+.below-nav-bar {
+	position: fixed;
+	top: 70px;
+	overflow: scroll;
+	height: 100%
+}
+
 
 
 @media(max-width: 600px) {
 	.container {
 		padding: 0;
 	}
-  }
+}

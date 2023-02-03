@@ -5,24 +5,25 @@ const Essays = () => {
   const driveRef = useRef();
 
   return (
-    <div class="outer-container">
+    <div class="outer-container below-nav-bar">
       <div class="container">
         <div class="inner-container">
           <div class="navbar">
-            <div
+            <span
               class="nav-button"
               onClick={() => lastOfUsRef.current.scrollIntoView()}
             >
               The Last of Us
-            </div>
-            <div
+            </span>
+            <span
               class="nav-button"
               onClick={() => driveRef.current.scrollIntoView()}
             >
               Drive
-            </div>
+            </span>
           </div>
 
+		<div className="">
           <div class="essays">
             <div id="last-of-us" ref={lastOfUsRef}>
               <div class="title">
@@ -403,6 +404,7 @@ const Essays = () => {
         </div>
       </div>
     </div>
+	</div>
   );
 };
 
