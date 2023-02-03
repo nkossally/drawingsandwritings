@@ -202,7 +202,9 @@ p {
 	height: 100%
 }
 
-
+.extra-margin-bottom{
+	margin-bottom: 80px;
+}
 
 @media(max-width: 600px) {
 	.container {

@@ -36,16 +36,16 @@ class Cartoons extends React.Component {
       <img src={comic_13} className="comic" key={"/cartoon 13.png"} />
       <img src={comic_12} className="comic" key={"/cartoon 12.png"} />
       <img src={comic_11} className="comic" key={"/cartoon 11.png"} />
-      <img src={comic_10} className="comic" key={"/cartoon 10.png"} />
-      <img src={comic_9} className="comic" key={"/cartoon 9.png"} />
-      <img src={comic_8} className="comic" key={"/cartoon 8.png"} />
+      <img src={comic_10} className="comic" key={"cartoon 10.png"} />
+      <img src={comic_9} className="comic" key={"cartoon 9.png"} />
+      <img src={comic_8} className="comic" key={"cartoon 8.png"} />
       <img src={comic_7} className="comic" key={"cartoon 7.png"} />
-      <img src={comic_6} className="comic" key={"/cartoon 6.png"} />  
-      <img src={comic_5} className="comic" key={"/cartoon 5.png"} />
-      <img src={comic_4} className="comic" key={"/cartoon 4.png"} />
-      <img src={comic_3} className="comic" key={"/cartoon 3.png"} />
-      <img src={comic_2} className="comic" key={"/cartoon 2.png"} />
-      <img src={comic_1} className="comic" key={"/cartoon 1.png"} />
+      <img src={comic_6} className="comic" key={"cartoon 6.png"} />  
+      <img src={comic_5} className="comic" key={"cartoon 5.png"} />
+      <img src={comic_4} className="comic" key={"cartoon 4.png"} />
+      <img src={comic_3} className="comic" key={"cartoon 3.png"} />
+      <img src={comic_2} className="comic" key={"cartoon 2.png"} />
+      <img src={comic_1} className="comic extra-margin-bottom" key={"cartoon 1.png"} />
     </div>;
   }
 }
