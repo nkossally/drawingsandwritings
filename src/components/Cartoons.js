@@ -1,4 +1,6 @@
 import React from "react";
+import { HashRouter, Routes, Route, Link } from "react-router-dom";
+
 import comic_1 from '../images/comic 1.png';
 import comic_2 from '../images/comic 2.png';
 import comic_3 from '../images/comic 3.png';
@@ -26,6 +28,9 @@ class Cartoons extends React.Component {
     // }
 
     return <div class="cartoons-container">
+      <Link className="nav-link centered-container" to="/cartoon">
+      View as slides
+      </Link>
       <img src={comic_15} className="comic" key={"cartoon 15.png"} />
       <img src={comic_14} className="comic" key={"cartoon 14.png"} />
       <img src={comic_13} className="comic" key={"/cartoon 13.png"} />
@@ -41,7 +46,6 @@ class Cartoons extends React.Component {
       <img src={comic_3} className="comic" key={"/cartoon 3.png"} />
       <img src={comic_2} className="comic" key={"/cartoon 2.png"} />
       <img src={comic_1} className="comic" key={"/cartoon 1.png"} />
-
     </div>;
   }
 }

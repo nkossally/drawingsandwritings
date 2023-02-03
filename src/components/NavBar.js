@@ -4,7 +4,6 @@ import {  Link } from "react-router-dom";
 
 const NavBar = () => {
   const location = useLocation();
-  console.log(location)
 
   const link =
     location.pathname === "/essays" ? (

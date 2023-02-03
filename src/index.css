@@ -60,6 +60,20 @@ html {
 	line-height: 1.5;
 }
 
+.cartoons-container{
+	background: #cde1ff;
+	width: 100vw;
+	display: flex;
+	flex-direction: column;
+	font-family: rockwell;
+	font-size: 16px;
+	line-height: 1.5;
+}
+
+.full-height{
+	height: 100vh;
+}
+
 .top-navbar {
 	display: flex;
 	width: 100vw;
@@ -158,6 +172,23 @@ p {
 
 .homepage-links:hover {
 	color: #F4A460;
+}
+
+.buttons-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 30px 10px;
+}
+
+
+.nav-link:hover {
+	color: #F4A460;
+}
+
+.centered-container {
+	display: flex;
+	justify-content: center;
 }
 
 @media(max-width: 600px) {
