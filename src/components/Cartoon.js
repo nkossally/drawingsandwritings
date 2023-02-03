@@ -31,7 +31,10 @@ const Cartoon = () => {
   const prevComic = comicNumber - 1 === 0 ? 15 : comicNumber - 1;
 
   return (
-    <div class="cartoons-container full-height">
+    <div class="cartoons-container full-height vertically-centered">
+            <Link className="nav-link centered-container" to="/cartoons">
+      View all
+      </Link>
       {comicNumber === 15 && (
         <img src={comic_15} className="comic" key={"cartoon 15.png"} />
       )}

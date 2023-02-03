@@ -1,10 +1,8 @@
-import React, { useRef } from 'react';
-import Scroll from "react-scroll";
-const ScrollLink = Scroll.ScrollLink;
+import React, { useRef } from "react";
 
 const Essays = () => {
-	const lastOfUsRef = useRef();
-	const driveRef = useRef();
+  const lastOfUsRef = useRef();
+  const driveRef = useRef();
 
   return (
     <div class="outer-container">
@@ -17,9 +15,10 @@ const Essays = () => {
             >
               The Last of Us
             </div>
-            <div class="nav-button" 
-			 onClick={() => driveRef.current.scrollIntoView()}
-			>
+            <div
+              class="nav-button"
+              onClick={() => driveRef.current.scrollIntoView()}
+            >
               Drive
             </div>
           </div>
@@ -30,68 +29,86 @@ const Essays = () => {
                 The Last of Us, The Real Housewives and the Sameness of Stories
               </div>
               <p>
-                Published on January 30, 2023 &#8226 Last modified on January
-                31, 2023
+                Published on January 30, 2023 &#8226; Last modified on February
+                3, 2023
               </p>
               <p>
-                I could not finish the first episode of The Last of Us in one
+                I could not finish the first episode of{" "}
+                <span className="italic">The Last of Us</span> in one
                 sitting. The show is an adaptation of a video game about a
                 pandemic in which infected humans become zombie-like creatures.
-                The show is riveting. For a few minutes I felt as if I were in a
-                car with Pedro Pascal and his daughter, trying to figure out
-                where to drive to safety while planes flew overhead, only dozens
-                of feet above ground in a residential neighborhood. I was with
-                Pedro for a few minutes anyway. And then I watched Pedro refuse
-                to help anyone who wasn’t in his family. And then I was out of
-                the story watching the story. I watched the technique of the
-                camera work turn a show into a first-person shooter, and all of
-                the zombies and all of society melded into pixels to be avoided
-                or destroyed. I watched a familiar story unfold of your/my
-                family versus everyone else.{" "}
+                It’s riveting. For a few minutes I felt as if I were in a car
+                with Pedro Pascal and his daughter, trying to drive to safety
+                while planes flew only dozens of feet overhead in a residential
+                neighborhood. I was with Pedro for a few minutes anyway. And
+                then I watched him refuse to help anyone who wasn’t in his
+                family. And then I was no longer in the story, but watching the
+                story. I watched the camera technique turn a TV show into a
+                first-person shooter. All of the zombies and all of society
+                melded into pixels to be avoided or destroyed. I watched a
+                familiar story unfold of one family versus everyone else.
               </p>
               <p>
-                The Last of Us made me sad, and this prompted me to turn it off
-                and turn on my comfort show, The Real Housewives of Potomac. But
-                as I soon witnessed Gizelle televise her twin daughters’
-                sixteenth birthday party and make it all about Gizelle, I felt
-                sadder. I also felt the sameness of the two shows since they
-                were both essentially saying the same thing. Is the edible
-                kicking in or is The Real Housewives of Potomac exactly the same
-                as a zombie apocalypse?{" "}
+                <span className="italic">The Last of Us</span> made me sad, and
+                this prompted me to turn it off and turn on my comfort show,{" "}
+                <span className="italic">
+                  The Real Housewives of Potomac
+                </span>
+                . But witnessing Gizelle televise her twin daughters’ sixteenth
+                birthday party and make it all about Gizelle made me feel even
+                sadder. Both shows are essentially saying the same thing. Is the
+                edible kicking in or is{" "}
+                <span className="italic">
+                  The Real Housewives of Potomac
+                </span>{" "}
+                exactly the same as a zombie apocalypse?
               </p>
               <p>
-                The stories of The Last of Us and The Real Housewives smell the
-                same, at least. For me, a creature of the internet, the medium
-                of the web browser is the same. By navigating from one tab to
-                another, I can transport from a science fiction narrative about
-                a pandemic induced by late capitalist excess to a hilarious
-                comedy about late capitalist excess.{" "}
+                The stories of <span className="italic">The Last of Us</span>{" "}
+                and <span className="italic">The Real Housewives</span> smell
+                the same, at least. As a creature of the internet, I use the
+                medium of the web browser to watch both. By navigating from one
+                tab to another, I can transport from a science fiction narrative
+                about a pandemic induced by late capitalist excess to a
+                hilarious comedy about late capitalist excess.
               </p>
               <p>
-                There’s a consistent message across many stories media tell us.
-                Discussing two different mediums, television and the computer,
-                can help illustrate the message. When I was a child, my family
-                shared a television. Thus, I could not merely change webpages in
-                order to watch a different show. I had to change the channel,
-                and then negotiate with my family whether the change was
-                acceptable. My father tended to watch soccer and he always got
-                his way. My siblings and I debated between Cartoon Network and
-                Nickelodeon. We would argue and physically fight for control of
-                the remote. I am not lauding the days of the primacy of the
+                There’s a consistent message across many stories the media tells
+                us. Discussing two different mediums, television and the
+                computer, can help illustrate the message. When I was a child,
+                my family shared a television. I could not merely change
+                webpages in order to watch a different show. I had to change the
+                channel, and then negotiate with my family whether the change
+                was acceptable. My father tended to watch soccer and he always
+                got his way. My siblings and I debated between Cartoon Network
+                and Nickelodeon. We would argue and physically fight for control
+                of the remote. I am not lauding the days of the primacy of the
                 television nor my nuclear family’s problematic dynamics, but
                 changing the channel implied some sort of relation between
                 brother, sister, father and mother. Changing a URL does not
-                express such tangible relations between people.{" "}
+                express such tangible relations between people.
               </p>
               <p>
                 I see loneliness and alienation in the stories we consume by
-                television and online. I believe the Pedro Pascal character in
-                The Last of Us really loves his daughter to the exclusion of
-                everyone else. And I believe that even if Gizelle is so lonely
-                and empty that she needs people who do not know her to know an
-                idea of her, she still loves her daughters. I believe that media
-                teaches us that we are all alone and, at least, we love our
-                daughters. And, perhaps, at most.
+                television and online. Between television and the internet, the
+                internet is far more alienating because it offers infinitely
+                more possibilities to satisfy granular tastes and desires at all
+                times. The difference between the two mediums is in the
+                extremity of the alienation they foster. The alienation is the
+                same.
+              </p>
+              <p>
+                Media is alienating. Media also tends to tell us that family,
+                especially the nuclear family, is important. This is not a
+                contradiction because loving your family can be as antisocial as
+                much as it is social. I believe the Pedro Pascal character in
+                <span className="italic">The Last of Us</span> really loves
+                his daughter to the exclusion of everyone else. And I believe
+                that even if Gizelle is so lonely and empty that she needs
+                people who do not know her to know an idea of her, she still
+                loves her daughters. I believe that the media teaches us that we
+                are all alone and, at least, we love our daughters. And,
+                perhaps, at most.
               </p>
             </div>
 
@@ -277,7 +294,7 @@ const Essays = () => {
                 Marxist theorist Theodore Adorno was skeptical about the role of
                 the culture industry in the lives of workers. Adorno once wrote:
               </p>
-              <p class="italicize">
+              <p class="italic">
                 It may also be supposed that the consciousness of the consumers
                 themselves is split between the prescribed fun which is supplied
                 to them by the culture industry and a not particularly

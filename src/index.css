@@ -191,6 +191,16 @@ p {
 	justify-content: center;
 }
 
+.italic {
+	font-style: italic;
+}
+
+.vertically-centered{
+	display: flex;
+	justify-content: center;
+}
+
+
 @media(max-width: 600px) {
 	.container {
 		padding: 0;
