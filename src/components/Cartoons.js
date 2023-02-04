@@ -16,6 +16,8 @@ import comic_12 from '../images/comic 12.png';
 import comic_13 from '../images/comic 13.png';
 import comic_14 from '../images/comic 14.png';
 import comic_15 from '../images/comic 15.png';
+import comic_16 from '../images/comic 16.png';
+import comic_17 from '../images/comic 17.png';
 
 class Cartoons extends React.Component {
   render() {
@@ -31,6 +33,8 @@ class Cartoons extends React.Component {
       <Link className="nav-link centered-container" to="/cartoon">
       View as slides
       </Link>
+      <img src={comic_17} className="comic" key={"cartoon 17.png"} />
+      <img src={comic_16} className="comic" key={"cartoon 16.png"} />
       <img src={comic_15} className="comic" key={"cartoon 15.png"} />
       <img src={comic_14} className="comic" key={"cartoon 14.png"} />
       <img src={comic_13} className="comic" key={"/cartoon 13.png"} />

@@ -16,10 +16,12 @@ import comic_12 from "../images/comic 12.png";
 import comic_13 from "../images/comic 13.png";
 import comic_14 from "../images/comic 14.png";
 import comic_15 from "../images/comic 15.png";
+import comic_16 from '../images/comic 16.png';
+import comic_17 from '../images/comic 17.png';
 
 const Cartoon = () => {
   const location = useLocation();
-  const numComics = 15;
+  const numComics = 17;
   let comicNumber = location.pathname.slice(9);
 
   if (!comicNumber) {
@@ -28,13 +30,19 @@ const Cartoon = () => {
     comicNumber = parseInt(comicNumber);
   }
   const nextComic = comicNumber + 1 === numComics + 1 ? 1 : comicNumber + 1;
-  const prevComic = comicNumber - 1 === 0 ? 15 : comicNumber - 1;
+  const prevComic = comicNumber - 1 === 0 ? numComics : comicNumber - 1;
 
   return (
     <div class="cartoons-container full-height vertically-centered below-nav-bar">
       <Link className="nav-link centered-container" to="/cartoons">
         View all
       </Link>
+      {comicNumber === 17 && (
+        <img src={comic_17} className="comic" key={"cartoon 17.png"} />
+      )}
+      {comicNumber === 16 && (
+        <img src={comic_16} className="comic" key={"cartoon 16.png"} />
+      )}
       {comicNumber === 15 && (
         <img src={comic_15} className="comic" key={"cartoon 15.png"} />
       )}
