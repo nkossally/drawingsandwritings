@@ -295,9 +295,7 @@ const Essays = () => {
                   and I experience an entire story. Pivotal months in a guy’s
                   life condensed into two hours. And time keeps passing. Things
                   happened between the first time I saw the film and the last
-                  time I saw it in order to write this essay. I lost my
-                  virginity in a bathhouse and subsequently experienced a series
-                  of romantic and sexual misadventures. I was fired from several
+                  time I saw it in order to write this essay. I was fired from several
                   jobs and did my utmost to get fired from the ones I ultimately
                   quit. Other things happened. I’ve worked. I’ve seen movies.
                 </p>
