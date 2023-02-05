@@ -88,8 +88,8 @@ const Essays = () => {
                   a URL does not express such tangible relations between people.
                 </p>
                 <p>
-                  I see loneliness and alienation in the stories we consume by
-                  television and online. Between television and the internet,
+                  I see loneliness and alienation in the stories
+                  television and the internet tell. Between the two,
                   the internet is far more alienating because it offers
                   infinitely more possibilities to satisfy granular tastes and
                   desires at all times. The difference between the two mediums
