@@ -20,10 +20,12 @@ import comic_19 from '../images/comic 16.png';
 import comic_18 from '../images/comic 17.png';
 import comic_17 from '../images/comic 18.png';
 import comic_16 from '../images/comic 19.png';
+import comic_20 from '../images/comic 20.png';
+
 
 const Cartoon = () => {
   const location = useLocation();
-  const numComics = 19;
+  const numComics = 20;
   let comicNumber = location.pathname.slice(9);
 
   if (!comicNumber) {
@@ -39,61 +41,64 @@ const Cartoon = () => {
       <Link className="nav-link centered-container" to="/cartoons">
         View all
       </Link>
+      {comicNumber === 20 && (
+        <img src={comic_20} alt="comic" className="comic" key={"cartoon 20.png"} />
+      )} 
       {comicNumber === 19 && (
-        <img src={comic_19} className="comic" key={"cartoon 19.png"} />
+        <img src={comic_19} alt="comic" className="comic" key={"cartoon 19.png"} />
       )}      {comicNumber === 18 && (
-        <img src={comic_18} className="comic" key={"cartoon 18.png"} />
+        <img src={comic_18} alt="comic" className="comic" key={"cartoon 18.png"} />
       )}
       {comicNumber === 17 && (
-        <img src={comic_17} className="comic" key={"cartoon 17.png"} />
+        <img src={comic_17} alt="comic"  className="comic" key={"cartoon 17.png"} />
       )}
       {comicNumber === 16 && (
-        <img src={comic_16} className="comic" key={"cartoon 16.png"} />
+        <img src={comic_16} alt="comic" className="comic" key={"cartoon 16.png"} />
       )}
       {comicNumber === 15 && (
-        <img src={comic_15} className="comic" key={"cartoon 15.png"} />
+        <img src={comic_15} alt="comic" className="comic" key={"cartoon 15.png"} />
       )}
       {comicNumber === 14 && (
-        <img src={comic_14} className="comic" key={"cartoon 14.png"} />
+        <img src={comic_14} alt="comic" className="comic" key={"cartoon 14.png"} />
       )}
       {comicNumber === 13 && (
-        <img src={comic_13} className="comic" key={"/cartoon 13.png"} />
+        <img src={comic_13} alt="comic" className="comic" key={"/cartoon 13.png"} />
       )}
       {comicNumber === 12 && (
-        <img src={comic_12} className="comic" key={"/cartoon 12.png"} />
+        <img src={comic_12} alt="comic" className="comic" key={"/cartoon 12.png"} />
       )}
       {comicNumber === 11 && (
-        <img src={comic_11} className="comic" key={"/cartoon 11.png"} />
+        <img src={comic_11} alt="comic" className="comic" key={"/cartoon 11.png"} />
       )}
       {comicNumber === 10 && (
-        <img src={comic_10} className="comic" key={"/cartoon 10.png"} />
+        <img src={comic_10} alt="comic" className="comic" key={"/cartoon 10.png"} />
       )}
       {comicNumber === 9 && (
-        <img src={comic_9} className="comic" key={"/cartoon 9.png"} />
+        <img src={comic_9} alt="comic" className="comic" key={"/cartoon 9.png"} />
       )}
       {comicNumber === 8 && (
-        <img src={comic_8} className="comic" key={"/cartoon 8.png"} />
+        <img src={comic_8} alt="comic" className="comic" key={"/cartoon 8.png"} />
       )}
       {comicNumber === 7 && (
-        <img src={comic_7} className="comic" key={"cartoon 7.png"} />
+        <img src={comic_7} alt="comic" className="comic" key={"cartoon 7.png"} />
       )}
       {comicNumber === 6 && (
-        <img src={comic_6} className="comic" key={"/cartoon 6.png"} />
+        <img src={comic_6} alt="comic" className="comic" key={"/cartoon 6.png"} />
       )}
       {comicNumber === 5 && (
-        <img src={comic_5} className="comic" key={"/cartoon 5.png"} />
+        <img src={comic_5} alt="comic" className="comic" key={"/cartoon 5.png"} />
       )}
       {comicNumber === 4 && (
-        <img src={comic_4} className="comic" key={"/cartoon 4.png"} />
+        <img src={comic_4} alt="comic" className="comic" key={"/cartoon 4.png"} />
       )}
       {comicNumber === 3 && (
-        <img src={comic_3} className="comic" key={"/cartoon 3.png"} />
+        <img src={comic_3} alt="comic" className="comic" key={"/cartoon 3.png"} />
       )}
       {comicNumber === 2 && (
-        <img src={comic_2} className="comic" key={"/cartoon 2.png"} />
+        <img src={comic_2} alt="comic" className="comic" key={"/cartoon 2.png"} />
       )}
       {comicNumber === 1 && (
-        <img src={comic_1} className="comic" key={"/cartoon 1.png"} />
+        <img src={comic_1} alt="comic" className="comic" key={"/cartoon 1.png"} />
       )}
       <div className="buttons-container">
         <Link className="nav-link" to={`/cartoon-${prevComic}`}>

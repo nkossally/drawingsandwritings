@@ -1,5 +1,5 @@
 import React from "react";
-import { HashRouter, Routes, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import comic_1 from '../images/comic 1.png';
 import comic_2 from '../images/comic 2.png';
@@ -21,6 +21,8 @@ import comic_17 from '../images/comic 17.png';
 import comic_18 from '../images/comic 18.png';
 import comic_19 from '../images/comic 19.png';
 
+import comic_20 from '../images/comic 20.png';
+
 class Cartoons extends React.Component {
   render() {
     // const numCartoons = 14;
@@ -35,25 +37,26 @@ class Cartoons extends React.Component {
       <Link className="nav-link centered-container" to="/cartoon">
       View as slides
       </Link>
-      <img src={comic_19} className="comic" key={"cartoon 19.png"} />
-      <img src={comic_18} className="comic" key={"cartoon 18.png"} />
-      <img src={comic_17} className="comic" key={"cartoon 17.png"} />
-      <img src={comic_16} className="comic" key={"cartoon 16.png"} />
-      <img src={comic_15} className="comic" key={"cartoon 15.png"} />
-      <img src={comic_14} className="comic" key={"cartoon 14.png"} />
-      <img src={comic_13} className="comic" key={"/cartoon 13.png"} />
-      <img src={comic_12} className="comic" key={"/cartoon 12.png"} />
-      <img src={comic_11} className="comic" key={"/cartoon 11.png"} />
-      <img src={comic_10} className="comic" key={"cartoon 10.png"} />
-      <img src={comic_9} className="comic" key={"cartoon 9.png"} />
-      <img src={comic_8} className="comic" key={"cartoon 8.png"} />
-      <img src={comic_7} className="comic" key={"cartoon 7.png"} />
-      <img src={comic_6} className="comic" key={"cartoon 6.png"} />  
-      <img src={comic_5} className="comic" key={"cartoon 5.png"} />
-      <img src={comic_4} className="comic" key={"cartoon 4.png"} />
-      <img src={comic_3} className="comic" key={"cartoon 3.png"} />
-      <img src={comic_2} className="comic" key={"cartoon 2.png"} />
-      <img src={comic_1} className="comic extra-margin-bottom" key={"cartoon 1.png"} />
+      <img src={comic_20} alt="comic" className="comic" key={"cartoon 20.png"} />
+      <img src={comic_19} alt="comic" className="comic" key={"cartoon 19.png"} />
+      <img src={comic_18} alt="comic" className="comic" key={"cartoon 18.png"} />
+      <img src={comic_17} alt="comic" className="comic" key={"cartoon 17.png"} />
+      <img src={comic_16} alt="comic" className="comic" key={"cartoon 16.png"} />
+      <img src={comic_15} alt="comic" className="comic" key={"cartoon 15.png"} />
+      <img src={comic_14} alt="comic" className="comic" key={"cartoon 14.png"} />
+      <img src={comic_13} alt="comic" className="comic" key={"/cartoon 13.png"} />
+      <img src={comic_12} alt="comic" className="comic" key={"/cartoon 12.png"} />
+      <img src={comic_11} alt="comic" className="comic" key={"/cartoon 11.png"} />
+      <img src={comic_10} alt="comic" className="comic" key={"cartoon 10.png"} />
+      <img src={comic_9} alt="comic" className="comic" key={"cartoon 9.png"} />
+      <img src={comic_8} alt="comic" className="comic" key={"cartoon 8.png"} />
+      <img src={comic_7} alt="comic" className="comic" key={"cartoon 7.png"} />
+      <img src={comic_6} alt="comic" className="comic" key={"cartoon 6.png"} />  
+      <img src={comic_5} alt="comic" className="comic" key={"cartoon 5.png"} />
+      <img src={comic_4} alt="comic" className="comic" key={"cartoon 4.png"} />
+      <img src={comic_3} alt="comic" className="comic" key={"cartoon 3.png"} />
+      <img src={comic_2} alt="comic" className="comic" key={"cartoon 2.png"} />
+      <img src={comic_1} alt="comic" className="comic extra-margin-bottom" key={"cartoon 1.png"} />
     </div>;
   }
 }
