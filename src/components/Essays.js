@@ -1,4 +1,4 @@
-import React, { useRef, useEffect} from "react";
+import React, { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
 
 const Essays = () => {
@@ -9,16 +9,16 @@ const Essays = () => {
   const hash = location.hash;
 
   useEffect(() => {
-    if(hash.includes("drive")){
-      driveRef.current.scrollIntoView()
+    if (hash.includes("drive")) {
+      driveRef.current.scrollIntoView();
     }
-  })
+  });
 
   useEffect(() => {
-    if(hash.includes("last-of-us")){
-      lastOfUsRef.current.scrollIntoView()
+    if (hash.includes("last-of-us")) {
+      lastOfUsRef.current.scrollIntoView();
     }
-  })
+  });
 
   return (
     <div class="outer-container below-nav-bar">
@@ -104,13 +104,12 @@ const Essays = () => {
                   a URL does not express such tangible relations between people.
                 </p>
                 <p>
-                  I see loneliness and alienation in the stories
-                  television and the internet tell. Between the two,
-                  the internet is far more alienating because it offers
-                  infinitely more possibilities to satisfy granular tastes and
-                  desires at all times. The difference between the two mediums
-                  is in the extremity of the alienation they foster. The
-                  alienation is the same.
+                  I see loneliness and alienation in the stories television and
+                  the internet tell. Between the two, the internet is far more
+                  alienating because it offers infinitely more possibilities to
+                  satisfy granular tastes and desires at all times. The
+                  difference between the two mediums is in the extremity of the
+                  alienation they foster. The alienation is the same.
                 </p>
                 <p>
                   In addition to fostering alienation, the media tends to tell
@@ -132,8 +131,10 @@ const Essays = () => {
 
               <div id="drive" ref={driveRef}>
                 <div class="title">Drive: A Defense of Hollywood Escapism</div>
-                <p>Originally published on June 08, 2020 &#8226; Last modified on
-                  February 3, 2023</p>
+                <p>
+                  Originally published on June 08, 2020 &#8226; Last modified on
+                  February 3, 2023
+                </p>
                 <p>
                   The least important element of Drive, and any movie in my
                   opinion, is its plot. Fortunately, the plot is
@@ -311,9 +312,10 @@ const Essays = () => {
                   and I experience an entire story. Pivotal months in a guy’s
                   life condensed into two hours. And time keeps passing. Things
                   happened between the first time I saw the film and the last
-                  time I saw it in order to write this essay. I was fired from several
-                  jobs and did my utmost to get fired from the ones I ultimately
-                  quit. Other things happened. I’ve worked. I’ve seen movies.
+                  time I saw it in order to write this essay. I was fired from
+                  several jobs and did my utmost to get fired from the ones I
+                  ultimately quit. Other things happened. I’ve worked. I’ve seen
+                  movies.
                 </p>
                 <p>
                   Marxist theorist Theodore Adorno was skeptical about the role
