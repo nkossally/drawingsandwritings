@@ -1,8 +1,24 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect} from "react";
+import { useLocation } from "react-router-dom";
 
 const Essays = () => {
   const lastOfUsRef = useRef();
   const driveRef = useRef();
+
+  const location = useLocation();
+  const hash = location.hash;
+
+  useEffect(() => {
+    if(hash.includes("drive")){
+      driveRef.current.scrollIntoView()
+    }
+  })
+
+  useEffect(() => {
+    if(hash.includes("last-of-us")){
+      lastOfUsRef.current.scrollIntoView()
+    }
+  })
 
   return (
     <div class="outer-container below-nav-bar">
