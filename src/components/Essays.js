@@ -21,6 +21,12 @@ const Essays = () => {
     }
   });
 
+  useEffect(() => {
+    if (hash.toLowerCase().includes("chatgpt")) {
+      chatGPTRef.current.scrollIntoView();
+    }
+  });
+
   return (
     <div class="outer-container below-nav-bar">
       <div class="container">
@@ -99,7 +105,7 @@ const Essays = () => {
                 </p>
                 <p>
                   I love a C paper far more than a B paper. So the real question
-                  for ChatCPT is will it be creative enough to capture the art of C minus?
+                  for ChatGPT is will it be creative enough to capture the art of C minus?
                 </p>
               </div>
               <div class="divider"></div>
