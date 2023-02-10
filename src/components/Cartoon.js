@@ -28,10 +28,12 @@ import comic_24 from '../images/comic 24.png';
 import comic_25 from '../images/comic 25.png';
 import comic_26 from '../images/comic 26.png';
 import comic_27 from '../images/comic 27.png';
+import comic_28 from '../images/comic 28.png';
+import comic_29 from '../images/comic 29.png';
 
 const Cartoon = () => {
   const location = useLocation();
-  const numComics = 27;
+  const numComics = 29;
   let comicNumber = location.pathname.slice(9);
 
   if (!comicNumber) {
@@ -48,6 +50,12 @@ const Cartoon = () => {
       <Link className="nav-link centered-container" to="/cartoons">
         View all
       </Link>
+      {comicNumber === 29 && (
+        <img src={comic_29} alt="comic" className="comic" key={"cartoon 29.png"} />
+      )}
+            {comicNumber === 28 && (
+        <img src={comic_28} alt="comic" className="comic" key={"cartoon 28.png"} />
+      )}
       {comicNumber === 27 && (
         <img src={comic_27} alt="comic" className="comic" key={"cartoon 27.png"} />
       )}
