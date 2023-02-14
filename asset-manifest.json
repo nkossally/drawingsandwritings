@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/drawingsandwritings/static/css/main.ee759105.css",
-    "main.js": "/drawingsandwritings/static/js/main.e6860855.js",
+    "main.js": "/drawingsandwritings/static/js/main.f988d3dc.js",
     "static/media/comic 7.png": "/drawingsandwritings/static/media/comic 7.45319f517e0cd8959275.png",
     "static/media/comic 5.png": "/drawingsandwritings/static/media/comic 5.1c8ed78008c968728111.png",
     "static/media/comic 1.png": "/drawingsandwritings/static/media/comic 1.0125018fa42298168eee.png",
@@ -15,7 +15,6 @@
     "static/media/comic 9.png": "/drawingsandwritings/static/media/comic 9.e76db2512d8e2c4124c8.png",
     "static/media/comic 20.png": "/drawingsandwritings/static/media/comic 20.540e1d02e352267cdbdd.png",
     "static/media/comic 21.png": "/drawingsandwritings/static/media/comic 21.f972aa5a803575205c0e.png",
-    "static/media/comic 34.png": "/drawingsandwritings/static/media/comic 34.e5e93b6d6a603ecf9d38.png",
     "static/media/comic 13.png": "/drawingsandwritings/static/media/comic 13.7a57561b5f3ee4398227.png",
     "static/media/comic 22.png": "/drawingsandwritings/static/media/comic 22.ad2013c736899bd047f9.png",
     "static/media/comic 19.png": "/drawingsandwritings/static/media/comic 19.35d0cbcc8d2b5b1bc04a.png",
@@ -27,6 +26,7 @@
     "static/media/comic 27.png": "/drawingsandwritings/static/media/comic 27.fbe7721be27b84cc7c53.png",
     "static/media/comic 26.png": "/drawingsandwritings/static/media/comic 26.3993b884ed25189f10be.png",
     "static/media/comic 10.png": "/drawingsandwritings/static/media/comic 10.5bfb3d2676fbd65de514.png",
+    "static/media/comic 34.png": "/drawingsandwritings/static/media/comic 34.6439a887f635c4deff21.png",
     "static/media/comic 32.png": "/drawingsandwritings/static/media/comic 32.83944805517f7bc04fb9.png",
     "static/media/comic 29.png": "/drawingsandwritings/static/media/comic 29.7d660142f89d10f2346e.png",
     "static/media/comic 33.png": "/drawingsandwritings/static/media/comic 33.04e3c4bca780d40f8cde.png",
@@ -38,10 +38,10 @@
     "static/media/comic 12.png": "/drawingsandwritings/static/media/comic 12.cc59a19e83ae9e6e2eed.png",
     "index.html": "/drawingsandwritings/index.html",
     "main.ee759105.css.map": "/drawingsandwritings/static/css/main.ee759105.css.map",
-    "main.e6860855.js.map": "/drawingsandwritings/static/js/main.e6860855.js.map"
+    "main.f988d3dc.js.map": "/drawingsandwritings/static/js/main.f988d3dc.js.map"
   },
   "entrypoints": [
     "static/css/main.ee759105.css",
-    "static/js/main.e6860855.js"
+    "static/js/main.f988d3dc.js"
   ]
 }
