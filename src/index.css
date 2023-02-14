@@ -150,6 +150,11 @@ p {
 	background: white;
 }
 
+.comic-crop {
+	margin: -40px 40px;
+	background: white;
+}
+
 .homepage-container {
 	display: flex;
 	flex-direction: column;
