@@ -39,6 +39,7 @@ import comic_35 from "../images/comic 35.png";
 import comic_36 from "../images/comic 36.png";
 import comic_37 from "../images/comic 37.png";
 import comic_38 from "../images/comic 38.png";
+import comic_39 from "../images/comic 39.png";
 
 const Cartoons = () => {
   return (
@@ -46,6 +47,7 @@ const Cartoons = () => {
       <Link className="nav-link centered-container" to="/cartoon">
         View as slides
       </Link>
+      <img src={comic_39} alt="comic" className="comic" key={"cartoon 39"} />
       <img src={comic_38} alt="comic" className="comic" key={"cartoon 38"} />
       <img src={comic_37} alt="comic" className="comic" key={"cartoon 37"} />
       <img src={comic_36} alt="comic" className="comic" key={"cartoon 36"} />
