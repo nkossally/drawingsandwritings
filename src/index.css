@@ -145,9 +145,20 @@ p {
 	text-decoration: underline;
 }
 
+.comic-button {
+	all: initial;
+	display: flex;
+	flex-direction: column;
+}
+.comic-button:hover {
+	opacity: 50%;
+}
+
 .comic {
 	margin: 10px 40px;
 	background: white;
+	max-height: 500px;
+
 }
 
 .comic-crop {

@@ -40,6 +40,7 @@ import comic_36 from "../images/comic 36.png";
 import comic_37 from "../images/comic 37.png";
 import comic_38 from "../images/comic 38.png";
 import comic_39 from "../images/comic 39.png";
+import comic_40 from "../images/comic 40.png";
 
 const Cartoons = () => {
   return (
@@ -47,21 +48,55 @@ const Cartoons = () => {
       <Link className="nav-link centered-container" to="/cartoon">
         View as slides
       </Link>
-      <img src={comic_39} alt="comic" className="comic" key={"cartoon 39"} />
-      <img src={comic_38} alt="comic" className="comic" key={"cartoon 38"} />
-      <img src={comic_37} alt="comic" className="comic" key={"cartoon 37"} />
-      <img src={comic_36} alt="comic" className="comic" key={"cartoon 36"} />
-      <img src={comic_35} alt="comic" className="comic" key={"cartoon 35"} />
-      <img src={comic_34} alt="comic" className="comic" key={"cartoon 34"} />
-      <img src={comic_33} alt="comic" className="comic" key={"cartoon 33"} />
-      <img src={comic_32} alt="comic" className="comic" key={"cartoon 32"} />
-      <img src={comic_31} alt="comic" className="comic" key={"cartoon 31"} />
-      <img src={comic_30} alt="comic" className="comic" key={"cartoon 30"} />
-      <img src={comic_29} alt="comic" className="comic" key={"cartoon 29"} />
-      <img src={comic_28} alt="comic" className="comic" key={"cartoon 28"} />
-      <img src={comic_27} alt="comic" className="comic" key={"cartoon 27"} />
-      <img src={comic_26} alt="comic" className="comic" key={"cartoon 26"} />
-      <img src={comic_25} alt="comic" className="comic" key={"cartoon 25"} />
+      <Link className="comic-button" to={"/cartoon-40"}></Link>
+      <Link className="comic-button" to={"/cartoon-39"}>
+        <img src={comic_39} className="comic" alt="comic" key={"cartoon 39"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-38"}>
+        <img src={comic_38} alt="comic" className="comic" key={"cartoon 38"} />
+      </Link>
+
+      <Link className="comic-button" to={"/cartoon-37"}>
+        <img src={comic_37} alt="comic" className="comic" key={"cartoon 37"} />
+      </Link>
+
+      <Link className="comic-button" to={"/cartoon-36"}>
+        <img src={comic_36} alt="comic" className="comic" key={"cartoon 36"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-35"}>
+        <img src={comic_35} alt="comic" className="comic" key={"cartoon 35"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-34"}>
+        <img src={comic_34} alt="comic" className="comic" key={"cartoon 34"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-33"}>
+        <img src={comic_33} alt="comic" className="comic" key={"cartoon 33"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-32"}>
+        <img src={comic_32} alt="comic" className="comic" key={"cartoon 32"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-31"}>
+        <img src={comic_31} alt="comic" className="comic" key={"cartoon 31"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-30"}>
+        <img src={comic_30} alt="comic" className="comic" key={"cartoon 30"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-29"}>
+        <img src={comic_29} alt="comic" className="comic" key={"cartoon 29"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-28"}>
+        <img src={comic_28} alt="comic" className="comic" key={"cartoon 28"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-27"}>
+        <img src={comic_27} alt="comic" className="comic" key={"cartoon 27"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-26"}>
+        <img src={comic_26} alt="comic" className="comic" key={"cartoon 26"} />
+      </Link>
+      <Link className="comic-button" to={"/cartoon-25"}>
+        <img src={comic_25} alt="comic" className="comic" key={"cartoon 25"} />
+      </Link>
+
       <img src={comic_24} alt="comic" className="comic" key={"cartoon 24"} />
       <img src={comic_23} alt="comic" className="comic" key={"cartoon 23"} />
       <img src={comic_22} alt="comic" className="comic" key={"cartoon 22"} />
