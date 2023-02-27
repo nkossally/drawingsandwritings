@@ -1,13 +1,15 @@
 {
   "files": {
-    "main.css": "/drawingsandwritings/static/css/main.ee759105.css",
-    "main.js": "/drawingsandwritings/static/js/main.935816c2.js",
+    "main.css": "/drawingsandwritings/static/css/main.39fac0f9.css",
+    "main.js": "/drawingsandwritings/static/js/main.db73f37c.js",
     "static/media/comic 7.png": "/drawingsandwritings/static/media/comic 7.45319f517e0cd8959275.png",
     "static/media/comic 5.png": "/drawingsandwritings/static/media/comic 5.1c8ed78008c968728111.png",
     "static/media/comic 1.png": "/drawingsandwritings/static/media/comic 1.0125018fa42298168eee.png",
     "static/media/comic 3.png": "/drawingsandwritings/static/media/comic 3.2e3d9812ddaf7a136bba.png",
     "static/media/comic 4.png": "/drawingsandwritings/static/media/comic 4.9cba143c974c995622d7.png",
     "static/media/comic 8.png": "/drawingsandwritings/static/media/comic 8.ecfc54867daa094b8e9a.png",
+    "static/media/comic 40.png": "/drawingsandwritings/static/media/comic 40.deb9340ea51a63cf475a.png",
+    "static/media/comic 39.png": "/drawingsandwritings/static/media/comic 39.fa8fad9fdac590700d2b.png",
     "static/media/comic 30.png": "/drawingsandwritings/static/media/comic 30.19de39a9641842cb4c9d.png",
     "static/media/comic 2.png": "/drawingsandwritings/static/media/comic 2.3c688451f05f6ca506f9.png",
     "static/media/comic 16.png": "/drawingsandwritings/static/media/comic 16.e7dab5eb5ca20b1c17fb.png",
@@ -41,11 +43,11 @@
     "static/media/comic 28.png": "/drawingsandwritings/static/media/comic 28.bf8d46a66f2bd0590f7d.png",
     "static/media/comic 12.png": "/drawingsandwritings/static/media/comic 12.cc59a19e83ae9e6e2eed.png",
     "index.html": "/drawingsandwritings/index.html",
-    "main.ee759105.css.map": "/drawingsandwritings/static/css/main.ee759105.css.map",
-    "main.935816c2.js.map": "/drawingsandwritings/static/js/main.935816c2.js.map"
+    "main.39fac0f9.css.map": "/drawingsandwritings/static/css/main.39fac0f9.css.map",
+    "main.db73f37c.js.map": "/drawingsandwritings/static/js/main.db73f37c.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee759105.css",
-    "static/js/main.935816c2.js"
+    "static/css/main.39fac0f9.css",
+    "static/js/main.db73f37c.js"
   ]
 }
