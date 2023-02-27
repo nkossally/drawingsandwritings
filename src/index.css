@@ -158,7 +158,11 @@ p {
 	margin: 10px 40px;
 	background: white;
 	max-height: 500px;
-
+}
+@media(max-width: 500px) {
+	.comic {
+		max-height: 337.5px;
+	}
 }
 
 .comic-crop {
