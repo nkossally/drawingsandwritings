@@ -167,10 +167,11 @@ p {
 .comic {
 	margin: 10px 40px;
 	background: white;
-	/* max-height: 500px; */
+	max-height: 80vh;
 }
 @media(max-width: 500px) {
 	.comic {
+		border: 2px dotted green;
 		/* max-height: 100vh; */
 	}
 }
