@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/drawingsandwritings/static/css/main.25a51d6b.css",
+    "main.css": "/drawingsandwritings/static/css/main.43a57bc4.css",
     "main.js": "/drawingsandwritings/static/js/main.aeb6d89d.js",
     "static/media/comic 7.png": "/drawingsandwritings/static/media/comic 7.45319f517e0cd8959275.png",
     "static/media/comic 5.png": "/drawingsandwritings/static/media/comic 5.1c8ed78008c968728111.png",
@@ -43,11 +43,11 @@
     "static/media/comic 28.png": "/drawingsandwritings/static/media/comic 28.421700f51c5159e1d346.png",
     "static/media/comic 12.png": "/drawingsandwritings/static/media/comic 12.cc59a19e83ae9e6e2eed.png",
     "index.html": "/drawingsandwritings/index.html",
-    "main.25a51d6b.css.map": "/drawingsandwritings/static/css/main.25a51d6b.css.map",
+    "main.43a57bc4.css.map": "/drawingsandwritings/static/css/main.43a57bc4.css.map",
     "main.aeb6d89d.js.map": "/drawingsandwritings/static/js/main.aeb6d89d.js.map"
   },
   "entrypoints": [
-    "static/css/main.25a51d6b.css",
+    "static/css/main.43a57bc4.css",
     "static/js/main.aeb6d89d.js"
   ]
 }
