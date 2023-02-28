@@ -12,6 +12,12 @@ a:active {
 
 html {
 	scroll-behavior: smooth;
+
+}
+
+body {
+    margin: 0; 
+     padding: 0;
 }
 
 .outer-container {
@@ -19,6 +25,8 @@ html {
 	width: 100vw;
 	height: 100vh;
 	display: flex;
+	border: 2px dotted green;
+	margin-left: 0;
 }
 
 .homepage-outer-container {
@@ -26,6 +34,7 @@ html {
 	background: #FFEBCD;
 	display: flex;
 	height: 100vh;
+
 }
 
 .container {
@@ -33,6 +42,7 @@ html {
 	font-family: rockwell;
 	flex-direction: column;
 	padding: 10px;
+
 }
 
 .inner-container {
@@ -157,11 +167,11 @@ p {
 .comic {
 	margin: 10px 40px;
 	background: white;
-	max-height: 500px;
+	/* max-height: 500px; */
 }
 @media(max-width: 500px) {
 	.comic {
-		max-height: 337.5px;
+		/* max-height: 100vh; */
 	}
 }
 
