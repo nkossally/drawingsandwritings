@@ -167,7 +167,7 @@ p {
 .comic {
 	margin: 10px 40px;
 	background: white;
-	max-height: 100vw;
+	max-height: min(100vw, 70vh);
 }
 @media(max-width: 500px) {
 	.comic {
