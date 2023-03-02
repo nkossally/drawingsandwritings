@@ -52,6 +52,9 @@ const Cartoon = () => {
   } else {
     comicNumber = parseInt(comicNumber);
   }
+  if (comicNumber === 13)  comicNumber = 14;
+  if(comicNumber === 15) comicNumber = 16;
+  
   const nextComic = comicNumber + 1 === numComics + 1 ? 1 : comicNumber + 1;
   const prevComic = comicNumber - 1 === 0 ? numComics : comicNumber - 1
 

@@ -126,14 +126,8 @@ const Cartoons = () => {
       <Link className="comic-button" to={"/cartoon-16"}>
         <img src={comic_16} alt="comic" className="comic" key={"cartoon 16"} />
       </Link>
-      <Link className="comic-button" to={"/cartoon-15"}>
-        <img src={comic_15} alt="comic" className="comic" key={"cartoon 15"} />
-      </Link>
       <Link className="comic-button" to={"/cartoon-14"}>
         <img src={comic_14} alt="comic" className="comic" key={"cartoon 14"} />
-      </Link>
-      <Link className="comic-button" to={"/cartoon-13"}>
-        <img src={comic_13} alt="comic" className="comic" key={"/cartoon 13"} />
       </Link>
       <Link className="comic-button" to={"/cartoon-12"}>
         <img src={comic_12} alt="comic" className="comic" key={"/cartoon 12"} />
