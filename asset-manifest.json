@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/drawingsandwritings/static/css/main.43a57bc4.css",
-    "main.js": "/drawingsandwritings/static/js/main.7eeab2fa.js",
+    "main.js": "/drawingsandwritings/static/js/main.3d96f6b4.js",
     "static/media/comic 30.png": "/drawingsandwritings/static/media/comic 30.0501476dc2d9a8f882e2.png",
     "static/media/comic 9.png": "/drawingsandwritings/static/media/comic 9.bad2571766516114ddeb.png",
     "static/media/comic 16.png": "/drawingsandwritings/static/media/comic 16.f66ec484a2ee1967cb92.png",
     "static/media/comic 3.png": "/drawingsandwritings/static/media/comic 3.7849f5ea56fb7def7edd.png",
-    "static/media/comic 4.png": "/drawingsandwritings/static/media/comic 4.a913b2f2905bb7989bb6.png",
     "static/media/comic 7.png": "/drawingsandwritings/static/media/comic 7.02626cb9aaf5fcfe4529.png",
+    "static/media/comic 4.png": "/drawingsandwritings/static/media/comic 4.636ba5555feffc142ed7.png",
     "static/media/comic 20.png": "/drawingsandwritings/static/media/comic 20.e94ab478f0f316177ae7.png",
     "static/media/comic 11.png": "/drawingsandwritings/static/media/comic 11.4771eea63795571df866.png",
     "static/media/comic 14.png": "/drawingsandwritings/static/media/comic 14.de02ef7d88b9ddc02195.png",
@@ -41,13 +41,13 @@
     "static/media/comic 36.png": "/drawingsandwritings/static/media/comic 36.164665b6ab0e0b179ee2.png",
     "static/media/comic 28.png": "/drawingsandwritings/static/media/comic 28.421700f51c5159e1d346.png",
     "static/media/comic 6.png": "/drawingsandwritings/static/media/comic 6.06c4840d237d1b7fc13f.png",
-    "static/media/comic 12.png": "/drawingsandwritings/static/media/comic 12.d8d8525e927d1f43a76b.png",
+    "static/media/comic 12.png": "/drawingsandwritings/static/media/comic 12.80314e75dc48fe90cedc.png",
     "index.html": "/drawingsandwritings/index.html",
     "main.43a57bc4.css.map": "/drawingsandwritings/static/css/main.43a57bc4.css.map",
-    "main.7eeab2fa.js.map": "/drawingsandwritings/static/js/main.7eeab2fa.js.map"
+    "main.3d96f6b4.js.map": "/drawingsandwritings/static/js/main.3d96f6b4.js.map"
   },
   "entrypoints": [
     "static/css/main.43a57bc4.css",
-    "static/js/main.7eeab2fa.js"
+    "static/js/main.3d96f6b4.js"
   ]
 }
