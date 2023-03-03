@@ -32,7 +32,7 @@ const Essays = () => {
       <div class="container">
         <div class="inner-container">
           <div class="navbar">
-          <span
+            <span
               class="nav-button"
               onClick={() => chatGPTRef.current.scrollIntoView()}
             >
@@ -65,7 +65,8 @@ const Essays = () => {
                   without having to think or write. Based on some
                   experimentation, ChatGPT seems to produce solid B papers on
                   any topic. My concern is not that students will cheat with
-                  this technology. My concern is that the art of the C minus will be lost.
+                  this technology. My concern is that the art of the C minus
+                  will be lost.
                 </p>
                 <p>
                   I spent many late nights in grad school chugging coffee and
@@ -105,7 +106,8 @@ const Essays = () => {
                 </p>
                 <p>
                   I love a C paper far more than a B paper. So the real question
-                  for ChatGPT is will it be creative enough to capture the art of C minus?
+                  for ChatGPT is will it be creative enough to capture the art
+                  of C minus?
                 </p>
               </div>
               <div class="divider"></div>
@@ -116,7 +118,7 @@ const Essays = () => {
                 </div>
                 <p>
                   Published on January 30, 2023 &#8226; Last modified on
-                  February 3, 2023
+                  March 2, 2023
                 </p>
                 <p>
                   I could not finish the first episode of{" "}
@@ -141,8 +143,13 @@ const Essays = () => {
                   <span className="italic">The Real Housewives of Potomac</span>
                   . But witnessing Gizelle televise her twin daughters’
                   sixteenth birthday party and make it all about Gizelle made me
-                  feel even sadder. Both shows are essentially saying the same
-                  thing. Is the edible kicking in or is{" "}
+                  feel even sadder. Epiphanically, it occurred to me that the
+                  sadness that permeates{" "}
+                  <span className="italic">The Real Housewives</span> is the
+                  same as the sadness of{" "}
+                  <span className="italic">The Last of Us</span>. Both shows are
+                  essentially saying the same thing. Is the edible kicking in or
+                  is{" "}
                   <span className="italic">The Real Housewives of Potomac</span>{" "}
                   exactly the same as a zombie apocalypse?
                 </p>
