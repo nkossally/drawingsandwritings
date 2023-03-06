@@ -13,9 +13,7 @@ import comic_9 from "../images/comic 9.png";
 import comic_10 from "../images/comic 10.png";
 import comic_11 from "../images/comic 11.png";
 import comic_12 from "../images/comic 12.png";
-import comic_13 from "../images/comic 13.png";
 import comic_14 from "../images/comic 14.png";
-import comic_15 from "../images/comic 15.png";
 import comic_16 from "../images/comic 16.png";
 import comic_17 from "../images/comic 17.png";
 import comic_18 from "../images/comic 18.png";
@@ -41,12 +39,16 @@ import comic_37 from "../images/comic 37.png";
 import comic_38 from "../images/comic 38.png";
 import comic_39 from "../images/comic 39.png";
 import comic_40 from "../images/comic 40.png";
+import comic_41 from "../images/comic 41.png";
 
 const Cartoons = () => {
   return (
     <div class="cartoons-container below-nav-bar">
       <Link className="nav-link centered-container" to="/cartoon">
         View as slides
+      </Link>
+      <Link className="comic-button" to={"/cartoon-41"}>
+        <img src={comic_41} className="comic" alt="comic" key={"cartoon 41"} />
       </Link>
       <Link className="comic-button" to={"/cartoon-40"}>
         <img src={comic_40} className="comic" alt="comic" key={"cartoon 40"} />

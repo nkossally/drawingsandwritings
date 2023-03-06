@@ -13,9 +13,7 @@ import comic_9 from "../images/comic 9.png";
 import comic_10 from "../images/comic 10.png";
 import comic_11 from "../images/comic 11.png";
 import comic_12 from "../images/comic 12.png";
-import comic_13 from "../images/comic 13.png";
 import comic_14 from "../images/comic 14.png";
-import comic_15 from "../images/comic 15.png";
 import comic_19 from '../images/comic 16.png';
 import comic_18 from '../images/comic 17.png';
 import comic_17 from '../images/comic 18.png';
@@ -41,10 +39,11 @@ import comic_37 from '../images/comic 37.png';
 import comic_38 from '../images/comic 38.png';
 import comic_39 from '../images/comic 39.png';
 import comic_40 from '../images/comic 40.png';
+import comic_41 from '../images/comic 41.png';
 
 const Cartoon = () => {
   const location = useLocation();
-  const numComics = 40;
+  const numComics = 41;
   let comicNumber = location.pathname.slice(9);
 
   if (!comicNumber) {
@@ -64,6 +63,9 @@ const Cartoon = () => {
       <Link className="nav-link centered-container" to="/cartoons">
         View all
       </Link>
+      {comicNumber === 41 && (
+        <img src={comic_41} alt="comic" className="comic" key={"cartoon 41.png"} />
+      )}
       {comicNumber === 40 && (
         <img src={comic_40} alt="comic" className="comic" key={"cartoon 40.png"} />
       )}
@@ -138,14 +140,8 @@ const Cartoon = () => {
       {comicNumber === 16 && (
         <img src={comic_16} alt="comic" className="comic" key={"cartoon 16.png"} />
       )}
-      {comicNumber === 15 && (
-        <img src={comic_15} alt="comic" className="comic" key={"cartoon 15.png"} />
-      )}
       {comicNumber === 14 && (
         <img src={comic_14} alt="comic" className="comic" key={"cartoon 14.png"} />
-      )}
-      {comicNumber === 13 && (
-        <img src={comic_13} alt="comic" className="comic" key={"/cartoon 13.png"} />
       )}
       {comicNumber === 12 && (
         <img src={comic_12} alt="comic" className="comic" key={"/cartoon 12.png"} />
