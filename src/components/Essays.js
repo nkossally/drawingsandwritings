@@ -113,7 +113,7 @@ const Essays = () => {
               <div class="divider"></div>
               <div id="last-of-us" ref={lastOfUsRef}>
                 <div class="title">
-                  The Lasttttt of Us, The Real Housewives and the Sameness of
+                  The Last of Us, The Real Housewives and the Sameness of
                   Stories
                 </div>
                 <p>
