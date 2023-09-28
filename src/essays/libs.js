@@ -111,13 +111,14 @@ const Libs = forwardRef((props, ref) => {
         disabled by society. And liberals tend to reduce their activism to
         policing language. But we should be radicals, not cops. Personally, I am
         not a cop. I do not weaponize liberalism on Twitter. But I have striven
-        to get good grades as a student and good jobs as an adult. I have
-        attended institutions that use people who look like me in order to
-        appear to be diverse and inclusive. I have attended these institutions
-        so that I can acquire enough status and wealth to avoid the worst
-        symptoms of blackness and working-classness prevalent in a diseased
-        liberal nation. I am not a cop, but I don’t want to go to jail. I run
-        from the cops. I ran from Winter.
+        to do well in a liberal nation. I have striven to get good grades as a
+        student and good jobs as an adult. I have attended institutions that use
+        people who look like me to present themselves as diverse and inclusive.
+        I have attended these institutions so that I can acquire enough status
+        and wealth to avoid the worst symptoms of blackness and
+        working-classness prevalent in a diseased liberal nation. I am not a
+        cop, but I don’t want to go to jail. I run from the cops. I ran from
+        Winter.
       </p>
     </div>
   );
