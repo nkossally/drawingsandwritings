@@ -1,10 +1,12 @@
 import React, { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import Libs from "../essays/libs";
 
 const Essays = () => {
   const lastOfUsRef = useRef();
   const driveRef = useRef();
   const chatGPTRef = useRef();
+  const libsRef = useRef();
 
   const location = useLocation();
   const hash = location.hash;
@@ -27,11 +29,23 @@ const Essays = () => {
     }
   });
 
+  useEffect(() => {
+    if (hash.toLowerCase().includes("libs")) {
+      libsRef?.current?.scrollIntoView();
+    }
+  });
+
   return (
     <div class="outer-container below-nav-bar">
       <div class="container">
         <div class="inner-container">
           <div class="navbar">
+            <span
+              class="nav-button"
+              onClick={() => libsRef?.current?.scrollIntoView()}
+            >
+              Libs
+            </span>
             <span
               class="nav-button"
               onClick={() => chatGPTRef.current.scrollIntoView()}
@@ -54,6 +68,9 @@ const Essays = () => {
 
           <div className="">
             <div class="essays">
+              <div class="top-margin"/>
+              <Libs ref={libsRef} />
+              <div class="divider"></div>
               <div id="chatGPT" ref={chatGPTRef}>
                 <div class="title">
                   ChatGPT and the Lost Art of the C- Essay
@@ -117,8 +134,8 @@ const Essays = () => {
                   Stories
                 </div>
                 <p>
-                  Published on January 30, 2023 &#8226; Last modified on
-                  March 2, 2023
+                  Published on January 30, 2023 &#8226; Last modified on March
+                  2, 2023
                 </p>
                 <p>
                   I could not finish the first episode of{" "}
