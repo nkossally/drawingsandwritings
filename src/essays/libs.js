@@ -4,7 +4,7 @@ const Libs = forwardRef((props, ref) => {
   return (
     <div id="libs" ref={ref}>
       <div class="title">
-        False Allies: How Liberals Exploit People with Special Needs{" "}
+        False Allies: How Everyone Exploits People with Special Needs{" "}
       </div>
       <p>
         Published on September 28, 2023 &#8226; Last modified on September 30,
@@ -96,33 +96,24 @@ const Libs = forwardRef((props, ref) => {
         Stories are powerful, but stories are stories.
       </p>
       <p>
-        Whether they are cynically disingenuous or intellectually unsound,
-        liberals are so frustrating that they make the term “libt*rd”
-        tantalizing. The portmanteau of “liberal” and “ret*rd” mocks the liberal
-        agenda of virtue signaling with language alone by using a slur many
-        liberals were comfortable with until they arbitrarily shifted their
-        linguistic norms very recently. The problem is, however, that “libt*rd”
-        punches down at people that old words and new words are actively
-        redefining and reclassifying. The term “libt*rd” appeals to
-        conservatives, radicals and liberal apostates alike, but I have to
-        concede to liberals that words matter, and I cannot call them
-        “libt*rds,” as much as I want to.
+        The radical critique of liberal posturing argues that the liberal state
+        will not dramatically redistribute wealth and resources to people who
+        are disabled by society. A radical could argue that the liberal
+        appropriation of the disability rights movement defangs and declaws the
+        movement by way of insubstantial legislation. A radical could argue that
+        a restructuring of society, not a prohibition of a slur, is required. A
+        radical could argue these things and tell a story about their own moral
+        and intellectual superiority over liberals.
       </p>
       <p>
-        The disability rights movement is not inherently liberal. It is just
-        that the liberal state can only pass legislation that does not
-        dramatically redistribute wealth and resources to people who are
-        disabled by society. And liberals tend to reduce their activism to
-        policing language. I contend that we should be radicals, not cops.
-        Personally, I am not a cop. I do not weaponize liberalism on Twitter.
-        Still, I have striven to do well in a liberal nation. I have striven to
-        get good grades as a student and good jobs as an adult. I have attended
-        institutions that use people who look like me to present themselves as
-        diverse and inclusive. I have attended these institutions so that I can
-        acquire enough status and wealth to avoid the worst symptoms of
-        blackness and working-classness prevalent in a diseased liberal nation.
-        I am not a cop, but I don’t want to go to jail. I run from the cops. I
-        ran from Winter.
+        A reformed radical self-stylized iconoclast could tell a story that
+        starts with running from a man named Winter. And then running from the
+        worst symptoms of black poverty and working-classness by attending elite
+        institutions that use people like him to present themselves as diverse
+        and inclusive. The liberal self-congratulation, the sneering radical
+        critique, the narcissistic personal essay – they all tell a story about
+        people with special needs. We keep telling stories about them. We keep
+        telling stories about ourselves.
       </p>
     </div>
   );
