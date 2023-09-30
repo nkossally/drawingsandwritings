@@ -4,9 +4,12 @@ const Libs = forwardRef((props, ref) => {
   return (
     <div id="libs" ref={ref}>
       <div class="title">
-        Libt*rds Will Not Save Ret*rds: How Liberals Exploit the Marginalized
+        False Allies: How Liberals Exploit People with Special Needs{" "}
       </div>
-      <p>Published on September 28, 2023</p>
+      <p>
+        Published on September 28, 2023 &#8226; Last modified on September 30,
+        2023
+      </p>
       <p>
         When I was a child, my mom played racquetball at a grassless concrete
         park in Brooklyn with a man named Winter. Winter was tall and lanky, and
@@ -88,37 +91,38 @@ const Libs = forwardRef((props, ref) => {
         full opportunity in our society.” So long as liberals choose to support
         this or that marginalized group, often in ways that are linguistic and
         not material, then they can pretend that equal opportunity and an
-        imagined nation state exist. Liberals use marginalized people to craft a
-        story about themselves and the nation. Stories are powerful, but stories
-        are stories.
+        imagined, exceptional, freedom-loving nation exist. Liberals use
+        marginalized people to craft a story about themselves and the nation.
+        Stories are powerful, but stories are stories.
       </p>
       <p>
         Whether they are cynically disingenuous or intellectually unsound,
         liberals are so frustrating that they make the term “libt*rd”
-        tantalizing. Those two syllables mock the liberal agenda of virtue
-        signaling with language alone, redeploying a slur many liberals were
-        once comfortable with until they arbitrarily shifted their linguistic
-        norms very recently. The problem is, however, that “libt*rd” punches
-        down at people that old words and new words are actively redefining and
-        reclassifying. The term “libt*rd” appeals to conservatives, radicals and
-        liberal apostates alike, but I have to concede to liberals that words
-        matter, and I cannot call them “libt*rds,” as much as I want to.
+        tantalizing. The portmanteau of “liberal” and “ret*rd” mocks the liberal
+        agenda of virtue signaling with language alone by using a slur many
+        liberals were comfortable with until they arbitrarily shifted their
+        linguistic norms very recently. The problem is, however, that “libt*rd”
+        punches down at people that old words and new words are actively
+        redefining and reclassifying. The term “libt*rd” appeals to
+        conservatives, radicals and liberal apostates alike, but I have to
+        concede to liberals that words matter, and I cannot call them
+        “libt*rds,” as much as I want to.
       </p>
       <p>
         The disability rights movement is not inherently liberal. It is just
         that the liberal state can only pass legislation that does not
         dramatically redistribute wealth and resources to people who are
         disabled by society. And liberals tend to reduce their activism to
-        policing language. But we should be radicals, not cops. Personally, I am
-        not a cop. I do not weaponize liberalism on Twitter. But I have striven
-        to do well in a liberal nation. I have striven to get good grades as a
-        student and good jobs as an adult. I have attended institutions that use
-        people who look like me to present themselves as diverse and inclusive.
-        I have attended these institutions so that I can acquire enough status
-        and wealth to avoid the worst symptoms of blackness and
-        working-classness prevalent in a diseased liberal nation. I am not a
-        cop, but I don’t want to go to jail. I run from the cops. I ran from
-        Winter.
+        policing language. I contend that we should be radicals, not cops.
+        Personally, I am not a cop. I do not weaponize liberalism on Twitter.
+        Still, I have striven to do well in a liberal nation. I have striven to
+        get good grades as a student and good jobs as an adult. I have attended
+        institutions that use people who look like me to present themselves as
+        diverse and inclusive. I have attended these institutions so that I can
+        acquire enough status and wealth to avoid the worst symptoms of
+        blackness and working-classness prevalent in a diseased liberal nation.
+        I am not a cop, but I don’t want to go to jail. I run from the cops. I
+        ran from Winter.
       </p>
     </div>
   );
