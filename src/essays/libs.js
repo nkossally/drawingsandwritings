@@ -103,7 +103,7 @@ const Libs = forwardRef((props, ref) => {
         with insubstantial legislation. A radical could argue that restructuring
         society, not prohibiting a slur, is required. A radical could argue
         these things and tell a story about their own moral and intellectual
-        superiority over liberals.
+        superiority to liberals.
       </p>
       <p>
         A reformed radical self-stylized iconoclast could tell a story that
