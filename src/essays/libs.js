@@ -7,8 +7,7 @@ const Libs = forwardRef((props, ref) => {
         False Allies: How Everyone Exploits People with Special Needs{" "}
       </div>
       <p>
-        Published on September 28, 2023 &#8226; Last modified on October 3,
-        2023
+        Published on September 28, 2023 &#8226; Last modified on October 3, 2023
       </p>
       <p>
         When I was a child, my mom played racquetball at a grassless concrete
@@ -106,15 +105,15 @@ const Libs = forwardRef((props, ref) => {
         superiority to liberals.
       </p>
       <p>
-        A reformed radical self-stylized iconoclast could tell a story that
-        starts with running from a man named Winter. And then running from the
-        worst symptoms of black poverty and working-classness by attending elite
-        institutions that use people like him to present themselves as diverse
-        and inclusive. That approach to talking about how we talk about people
-        with special needs adds personhood to a political discussion. The
-        liberal self-congratulation, the sneering radical critique, the personal
-        essay – they all tell a story about people with special needs. We keep
-        telling stories about them. We keep telling stories about ourselves.
+        A formerly radical skeptic could tell a story that starts with running
+        from a man named Winter. And then running from the worst symptoms of
+        black poverty and working-classness by attending elite institutions that
+        use people like him to present themselves as diverse and inclusive. That
+        approach to talking about how we talk about people with special needs
+        adds personhood to a political discussion. The liberal
+        self-congratulation, the sneering radical critique, the personal essay –
+        they all tell a story about people with special needs. We keep telling
+        stories about them. We keep telling stories about ourselves.
       </p>
     </div>
   );
