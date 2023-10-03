@@ -99,21 +99,22 @@ const Libs = forwardRef((props, ref) => {
         The radical critique of liberal posturing argues that the liberal state
         will not dramatically redistribute wealth and resources to people who
         are disabled by society. A radical could argue that the liberal
-        appropriation of the disability rights movement defangs and declaws the
-        movement by way of insubstantial legislation. A radical could argue that
-        a restructuring of society, not a prohibition of a slur, is required. A
-        radical could argue these things and tell a story about their own moral
-        and intellectual superiority over liberals.
+        appropriation of the disability rights movement declaws the movement
+        with insubstantial legislation. A radical could argue that restructuring
+        society, not prohibiting a slur, is required. A radical could argue
+        these things and tell a story about their own moral and intellectual
+        superiority over liberals.
       </p>
       <p>
         A reformed radical self-stylized iconoclast could tell a story that
         starts with running from a man named Winter. And then running from the
         worst symptoms of black poverty and working-classness by attending elite
         institutions that use people like him to present themselves as diverse
-        and inclusive. The liberal self-congratulation, the sneering radical
-        critique, the narcissistic personal essay – they all tell a story about
-        people with special needs. We keep telling stories about them. We keep
-        telling stories about ourselves.
+        and inclusive. That approach to talking about how we talk about people
+        with special needs adds personhood to a political discussion. The
+        liberal self-congratulation, the sneering radical critique, the personal
+        essay – they all tell a story about people with special needs. We keep
+        telling stories about them. We keep telling stories about ourselves.
       </p>
     </div>
   );
