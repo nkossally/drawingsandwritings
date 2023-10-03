@@ -7,7 +7,7 @@ const Libs = forwardRef((props, ref) => {
         False Allies: How Everyone Exploits People with Special Needs{" "}
       </div>
       <p>
-        Published on September 28, 2023 &#8226; Last modified on September 30,
+        Published on September 28, 2023 &#8226; Last modified on October 3,
         2023
       </p>
       <p>
