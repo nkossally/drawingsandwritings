@@ -43,12 +43,12 @@ const Essays = () => {
       <div class="container">
         <div class="inner-container">
           <div class="navbar">
-            <span
+            {/* <span
               class="nav-button"
               onClick={() => libsRef?.current?.scrollIntoView()}
             >
               Libs
-            </span>
+            </span> */}
             <span
               class="nav-button"
               onClick={() => chatGPTRef.current.scrollIntoView()}
@@ -72,8 +72,8 @@ const Essays = () => {
           <div className="">
             <div class="essays">
               <div class="top-margin" />
-              <Libs ref={libsRef} />
-              <div class="divider"></div>
+              {/* <Libs ref={libsRef} /> */}
+              {/* <div class="divider"></div> */}
               <ChatGpt ref={chatGPTRef} />
               <div class="divider"></div>
               <LastOfUs ref={lastOfUsRef} />
