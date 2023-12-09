@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import Libs from "../essays/libs";
+import FalseAllies from "../essays/falseAllies";
 import ChatGpt from "../essays/chatGpt";
 import LastOfUs from "../essays/lastOfUs";
 import Drive from "../essays/drive";
@@ -9,7 +9,7 @@ const Essays = () => {
   const lastOfUsRef = useRef();
   const driveRef = useRef();
   const chatGPTRef = useRef();
-  const libsRef = useRef();
+  const falseAlliesRef = useRef();
 
   const location = useLocation();
   const hash = location.hash;
@@ -33,8 +33,8 @@ const Essays = () => {
   });
 
   useEffect(() => {
-    if (hash.toLowerCase().includes("libs")) {
-      libsRef?.current?.scrollIntoView();
+    if (hash.toLowerCase().includes("falseAllies")) {
+      falseAlliesRef?.current?.scrollIntoView();
     }
   });
 
@@ -43,17 +43,17 @@ const Essays = () => {
       <div class="container">
         <div class="inner-container">
           <div class="navbar">
-            {/* <span
-              class="nav-button"
-              onClick={() => libsRef?.current?.scrollIntoView()}
-            >
-              Libs
-            </span> */}
             <span
               class="nav-button"
               onClick={() => chatGPTRef.current.scrollIntoView()}
             >
               ChatGPT
+            </span>
+            <span
+              class="nav-button"
+              onClick={() => falseAlliesRef?.current?.scrollIntoView()}
+            >
+              False Allies
             </span>
             <span
               class="nav-button"
@@ -72,9 +72,9 @@ const Essays = () => {
           <div className="">
             <div class="essays">
               <div class="top-margin" />
-              {/* <Libs ref={libsRef} /> */}
-              {/* <div class="divider"></div> */}
               <ChatGpt ref={chatGPTRef} />
+              <div class="divider"></div>
+              <FalseAllies ref={falseAlliesRef} />
               <div class="divider"></div>
               <LastOfUs ref={lastOfUsRef} />
               <div class="divider"></div>

@@ -1,54 +1,57 @@
 import React, { forwardRef } from "react";
 
-const Libs = forwardRef((props, ref) => {
+const FalseAllies = forwardRef((props, ref) => {
   return (
-    <div id="libs" ref={ref}>
+    <div id="falseAllies" ref={ref}>
       <div class="title">
         False Allies: How Everyone Exploits People with Special Needs{" "}
       </div>
       <p>
-        Published on September 28, 2023 &#8226; Last modified on October 3, 2023
+        Published on September 28, 2023 &#8226; Last modified on December 9, 2023
       </p>
       <p>
-        When I was a child, my mom played racquetball at a grassless concrete
-        park in Brooklyn with a man named Winter. Winter was tall and lanky, and
-        he had a remarkably ordinary face. I liked Winter because he was nice
-        and he was comfortable existing in the world of children without
-        condescension. Winter was different from other adults in this way and in
-        others. Every word he spoke seemed to require effort and spit. He tended
+        When I was a child, my mom played racquetball at a grassless park in
+        Brooklyn with a man named Winter. Winter was tall and lanky, and he had
+        a remarkably ordinary face. I liked Winter because he was nice and he
+        was comfortable existing in the world of children without condescension.
+        Winter was different from other adults in this way and in others. His
+        speech sounded like he shoved words out of his mouth by force. He tended
         not to maintain eye contact and his expressions were vacant. The holes
         in my memory make it hard to pinpoint when, but at some point I
         understood that I should no longer play with Winter because he was the
         mean thing other kids said that is similar to and worse than stupid. I
         was learning how to shun and exclude. Winter was different and I wanted
-        to fit in. I felt bad for Winter and I wanted to run from him and from
-        anyone whose differences might rub off on me or mirror my own.
+        to fit in. I felt bad for Winter and I wanted to run from the bad
+        feeling. I wanted to run from him and from anyone whose differences
+        might rub off on me or mirror my own.
       </p>
       <p>
         Everyone was meaner in the 90’s. Back then, the R-word was not only a
         casual insult, but also a scientific category. According to 1994’s
         fourth edition of the Diagnostic and Statistical Manual of Mental
         Disorders (DSM), mental retardation is classifiable as mild, moderate,
-        severe and profound, depending on IQ. In its attempt to legitimate the
-        field of psychiatry with smart stuff like math and science, the American
-        Psychiatric Association medicalized an insult. In turn, public schools
-        weaponized a slur against children, sorting some students into lower
-        tracks of education and lower-class jobs.
+        severe and profound, depending on IQ. The American Pyschiatirc
+        Association loves assigning numbers to things because smart stuff like
+        math and science legitimate the field psychiatry. Alongside the APA,
+        other institutions collaborated in attacking people categorized by the
+        R-word. Public schools past and present sort some students into lower
+        tracks of education and, ultimately, lower-class jobs. The attacks were
+        formal and informal, personal and institutional.
       </p>
       <p>
-        The culture has shifted over the past couple of decades. Ordinary
+        The culture shifted over the past couple of decades. Ordinary
         working-class people increasingly seek out therapy without fear of being
-        stigmatized as crazy. Mental health discourse has infiltrated casual
+        stigmatized as crazy. Mental health discourse infiltrates casual
         conversation. Everyone is anxious and depressed. Everyone’s ex-boyfriend
         is a narcissist. Everyone’s crazy ex-girlfriend is borderline. Everyone
         has ADHD. And poor young people without health insurance use YouTube
-        videos to diagnose themselves. Therapy is more popular than ever. The
-        culture shifted and so did 2013’s fifth edition of the DSM. The R-word
-        is not in it and therefore the text is more legitimate. There are all
-        sorts of diagnoses for people who were once the R-word, just as there
-        are thousands of scientific classifications for people who were once
-        just “crazy.” The colloquial catch all for the R-word and other
-        disabilities is “special needs.” We are nicer now. Sort of.
+        videos to diagnose themselves. The culture shifted and so did 2013’s
+        fifth edition of the DSM. The R-word is not in it and therefore the text
+        is more legitimate. There are all sorts of diagnoses for people who were
+        once the R-word, just as there are thousands of scientific
+        classifications for people who were once just “crazy.” The colloquial
+        catch all for the R-word and other disabilities is “special needs.” We
+        are nicer now. Sort of.
       </p>
       <p>
         In an off-the-cuff remark in 2009, former president Barack Obama
@@ -66,10 +69,10 @@ const Libs = forwardRef((props, ref) => {
       <p>
         One year after the gaffe, Obama signed Rosa’s Law, a law that replaces
         usages of “mental retardation” with “intellectual disability” in federal
-        health, labor and education laws. This is good. It is better to
+        health, labor and education laws. This is positive. It is better to
         stigmatize usage of the R-word than to sanction it in legal documents or
-        casual conversation. The importance of words should not be minimized.
-        But it is notable that a major piece of liberal legislation concerning
+        casual conversation because words are important. Still, it is not an
+        accident that a major piece of liberal legislation concerning
         marginalized people is linguistic. Liberals love a linguistic
         intervention. They require no money and nearly no effort, and they
         enable you to feel good about saying the right thing, and justified in
@@ -119,4 +122,4 @@ const Libs = forwardRef((props, ref) => {
   );
 });
 
-export default Libs;
+export default FalseAllies;
