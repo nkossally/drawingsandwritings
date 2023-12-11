@@ -37,7 +37,6 @@ import comic_35 from "../images/comic 35.png";
 import comic_36 from "../images/comic 36.png";
 import comic_37 from "../images/comic 37.png";
 import comic_38 from "../images/comic 38.png";
-import comic_39 from "../images/comic 39.png";
 import comic_40 from "../images/comic 40.png";
 import comic_41 from "../images/comic 41.png";
 import comic_42 from "../images/comic 42.png";
@@ -68,9 +67,6 @@ const Cartoons = () => {
       </Link>
       <Link className="comic-button" to={"/cartoon-40"}>
         <img src={comic_40} className="comic" alt="comic" key={"cartoon 40"} />
-      </Link>
-      <Link className="comic-button" to={"/cartoon-39"}>
-        <img src={comic_39} className="comic" alt="comic" key={"cartoon 39"} />
       </Link>
       <Link className="comic-button" to={"/cartoon-38"}>
         <img src={comic_38} alt="comic" className="comic" key={"cartoon 38"} />
