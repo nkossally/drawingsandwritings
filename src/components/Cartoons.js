@@ -44,12 +44,16 @@ import comic_43 from "../images/comic 43.png";
 import comic_44 from "../images/comic 44.png";
 import comic_45 from "../images/comic 45.png";
 import comic_46 from "../images/comic 46.png";
+import comic_47 from "../images/comic 47.png";
 
 const Cartoons = () => {
   return (
     <div class="cartoons-container below-nav-bar">
       <Link className="nav-link centered-container" to="/cartoon">
         View as slides
+      </Link>
+      <Link className="comic-button" to={"/cartoon-47"}>
+        <img src={comic_47} className="comic" alt="comic" key={"cartoon 47"} />
       </Link>
       <Link className="comic-button" to={"/cartoon-46"}>
         <img src={comic_46} className="comic" alt="comic" key={"cartoon 46"} />
