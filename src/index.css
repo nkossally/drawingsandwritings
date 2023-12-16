@@ -162,7 +162,6 @@ p {
 	flex-direction: column;
 }
 .comic-button:hover {
-	opacity: 50%;
 }
 
 .comic {

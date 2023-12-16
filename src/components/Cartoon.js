@@ -76,7 +76,7 @@ const Cartoon = () => {
       <Link className="nav-link centered-container" to="/cartoons">
         View all
       </Link>
-      {comicNumber === 46 && (
+      {comicNumber === 47 && (
         <img
           src={comic_47}
           alt="comic"
