@@ -47,7 +47,7 @@ const Essays = () => {
               class="nav-button"
               onClick={() => chatGPTRef.current.scrollIntoView()}
             >
-              ChatGPT baby
+              ChatGPT
             </span>
             <span
               class="nav-button"

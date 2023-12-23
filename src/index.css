@@ -87,6 +87,9 @@ body {
 	flex-direction: column;
 	max-width: 90px;
 	margin-top: 70px;
+	/* overflow: scroll;
+	border: 5px dotted green;
+	height: 100vh; */
 }
 
 .nav-button {

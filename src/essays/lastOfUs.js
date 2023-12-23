@@ -73,7 +73,7 @@ const LastOfUs = forwardRef((props, ref) => {
         In addition to fostering alienation, the media tends to tell us that
         family, especially the nuclear family, is important. This is not a
         contradiction because loving your family can be as antisocial as much as
-        it is social. I believe the Pedro Pascal character in
+        it is social. I believe the Pedro Pascal character in<span> </span>
         <span className="italic">The Last of Us</span> really loves his daughter
         to the exclusion of everyone else. And I believe that even if Gizelle is
         so lonely and empty that she needs people who do not know her to know an
