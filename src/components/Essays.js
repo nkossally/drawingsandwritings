@@ -42,31 +42,33 @@ const Essays = () => {
     <div class="outer-container below-nav-bar">
       <div class="container">
         <div class="inner-container">
-          <div class="navbar">
-            <span
-              class="nav-button"
-              onClick={() => chatGPTRef.current.scrollIntoView()}
-            >
-              ChatGPT
-            </span>
-            <span
-              class="nav-button"
-              onClick={() => falseAlliesRef?.current?.scrollIntoView()}
-            >
-              False Allies
-            </span>
-            <span
-              class="nav-button"
-              onClick={() => lastOfUsRef.current.scrollIntoView()}
-            >
-              The Last of Us
-            </span>
-            <span
-              class="nav-button"
-              onClick={() => driveRef.current.scrollIntoView()}
-            >
-              Drive
-            </span>
+          <div class="wrapper">
+            <div class="navbar ">
+              <span
+                class="nav-button"
+                onClick={() => chatGPTRef.current.scrollIntoView()}
+              >
+                ChatGPT
+              </span>
+              <span
+                class="nav-button"
+                onClick={() => falseAlliesRef?.current?.scrollIntoView()}
+              >
+                False Allies
+              </span>
+              <span
+                class="nav-button"
+                onClick={() => lastOfUsRef.current.scrollIntoView()}
+              >
+                The Last of Us
+              </span>
+              <span
+                class="nav-button"
+                onClick={() => driveRef.current.scrollIntoView()}
+              >
+                Drive
+              </span>
+            </div>
           </div>
 
           <div className="">

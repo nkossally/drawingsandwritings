@@ -1,5 +1,17 @@
 /* top nav bar height: 70px */
 
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 3px rgba(0,0,0,0.5); 
+}
+
 a,
 a:link,
 a:visited,
@@ -16,8 +28,8 @@ html {
 }
 
 body {
-    margin: 0; 
-     padding: 0;
+	margin: 0;
+	padding: 0;
 }
 
 .outer-container {
@@ -54,7 +66,6 @@ body {
 	line-height: 1.5;
 	background: #FFEBCD;
 	padding: 10px 10px;
-	margin-left: 100px;
 }
 
 .cartoons-container {
@@ -85,11 +96,19 @@ body {
 	position: fixed;
 	display: flex;
 	flex-direction: column;
-	max-width: 90px;
 	margin-top: 70px;
-	/* overflow: scroll;
-	border: 5px dotted green;
-	height: 100vh; */
+	display: flex;
+	height: 100vh;
+	position: relative;
+}
+
+.wrapper {
+	display: flex;
+	height: 100vh;
+	width: 1200px;
+	overflow-y: scroll;
+	position: relative;
+	scrollbar-color: pink lightblue;
 }
 
 .nav-button {
@@ -164,8 +183,8 @@ p {
 	display: flex;
 	flex-direction: column;
 }
-.comic-button:hover {
-}
+
+.comic-button:hover {}
 
 .comic {
 	margin: 10px auto;
@@ -174,8 +193,7 @@ p {
 }
 
 @media(max-width: 500px) {
-	.comic {
-	}
+	.comic {}
 }
 
 .comic-crop {
@@ -236,7 +254,7 @@ p {
 	height: 100%
 }
 
-.extra-margin-bottom{
+.extra-margin-bottom {
 	margin-bottom: 80px;
 }
 
