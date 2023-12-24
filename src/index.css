@@ -66,6 +66,13 @@ body {
 	line-height: 1.5;
 	background: #FFEBCD;
 	padding: 10px 10px;
+	max-width: calc(100% - 200px);
+}
+
+@media(max-width: 500px) {
+	.essays {
+		width: calc(100% - 10px);
+	}
 }
 
 .cartoons-container {
@@ -109,6 +116,12 @@ body {
 	overflow-y: scroll;
 	position: relative;
 	scrollbar-color: pink lightblue;
+}
+
+@media(max-width: 500px) {
+	.wrapper {
+		display: none;
+	}
 }
 
 .nav-button {
