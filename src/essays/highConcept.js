@@ -102,7 +102,7 @@ const HighConcept = forwardRef((props, ref) => {
         understand whether the concept of America was coherent in the 90’s, it
         is instructive to look at what some movies said about America back then.
       </p>
-      <p>1990: Pretty Woman</p>
+      <p className="section">1990: Pretty Woman</p>
       <p>
         Most people associate high concept films with big budget sci-fi or
         adventure films, but the romantic comedy Pretty Woman, the second
@@ -194,7 +194,7 @@ const HighConcept = forwardRef((props, ref) => {
         themselves in order to tolerate their condition. The movies express
         those contradictions.
       </p>
-      <p>1991: Silence of the Lambs</p>
+      <p className="section">1991: Silence of the Lambs</p>
 
       <p>
         Like Pretty Woman of the former year, 1991’s Silence of the Lambs uses a
@@ -318,7 +318,7 @@ const HighConcept = forwardRef((props, ref) => {
         trigger and kills a man in the end, and we celebrate her for it and
         understand her to be good.
       </p>
-      <p>1992: Basic Instinct</p>
+      <p className="section">1992: Basic Instinct</p>
       <p>
         The year after Silence of the Lambs, Basic Instinct provided LGBT
         activist groups another movie to protest. Basic Instinct is an erotic
@@ -371,7 +371,7 @@ const HighConcept = forwardRef((props, ref) => {
         they are barely human. There is nowhere else to go from this peak of
         abstraction except down lower to a space of specificity and low-concept.
       </p>
-      <p>1993: Jurassic Park</p>
+      <p className="section">1993: Jurassic Park</p>
 
       <p>
         In her review of Jurassic Park, New York Times film critic Janet Maslin
@@ -423,7 +423,7 @@ const HighConcept = forwardRef((props, ref) => {
         part, thirty years later. Jurassic Park is a good movie, but the film is
         unusually cynical for Stephen Spielberg, a typically earnest filmmaker.
       </p>
-      <p>1994: The Mask</p>
+      <p className="section">1994: The Mask</p>
 
       <p>
         Several months after Ace Ventura: Pet Detective introduced moviegoers to
@@ -456,7 +456,7 @@ const HighConcept = forwardRef((props, ref) => {
         with Diaz at all. The Mask does not have the best message. It is not
         cynical. It is just lazy and irresponsible.
       </p>
-      <p>1995: Seven</p>
+      <p className="section">1995: Seven</p>
       <p>
         Like Silence of the Lambs, Seven presents a pessimistic vision of a
         decadent society in which serial killers represent the rottenest part.
@@ -510,7 +510,7 @@ const HighConcept = forwardRef((props, ref) => {
         Clarice Starling, he is the embodiment of expertise that protects and
         justifies the project of modernity.
       </p>
-      <p>1996: The Nutty Professor</p>
+      <p className="section">1996: The Nutty Professor</p>
       <p>
         The 1996 remake of The Nutty Professor, like The Mask, is a Jekyll and
         Hyde story. 1963’s Nutty Professor stars Jerry Lewis, a dorky professor
@@ -596,7 +596,7 @@ const HighConcept = forwardRef((props, ref) => {
         has one of very few somewhat positive depictions of fat blackness in
         90’s cinema. The movie tries to be kind, to an extent.
       </p>
-      <p>1997: Titanic</p>
+      <p className="section">1997: Titanic</p>
       <p>
         Titanic is one of the greatest spectacles of the 90’s, in or outside of
         cinema. The hook for the film is a realistic recreation of the
@@ -688,7 +688,7 @@ const HighConcept = forwardRef((props, ref) => {
         possible in the land of opportunity, and skeptical audiences are
         supposed to feel the same, if the trick of the movie works.
       </p>
-      <p>1998: Truman Show</p>
+      <p className="section">1998: Truman Show</p>
       <p>
         The Truman Show is one of those “reality is not what you think it is”
         high concept classics of the 90’s, like The Matrix (1999) and Fight Club
@@ -728,7 +728,7 @@ const HighConcept = forwardRef((props, ref) => {
         people in boring suburbs had best not have psychotic breaks like Truman.
         Instead, just find out what else is on. The Truman Show is pretty good.
       </p>
-      <p>1999: The Matrix</p>
+      <p className="section">1999: The Matrix</p>
       <p>
         The Matrix is very similar to The Truman Show, except it is more iconic
         because it takes better advantage of what the movies can do. The Matrix

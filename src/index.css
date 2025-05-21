@@ -255,6 +255,11 @@ p {
 	font-style: italic;
 }
 
+.section{
+	font-weight: bold;
+	font-size: 18px;
+}
+
 .vertically-centered {
 	display: flex;
 	justify-content: center;
