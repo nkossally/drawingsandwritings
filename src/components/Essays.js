@@ -4,12 +4,14 @@ import FalseAllies from "../essays/falseAllies";
 import ChatGpt from "../essays/chatGpt";
 import LastOfUs from "../essays/lastOfUs";
 import Drive from "../essays/drive";
+import HighConcept from "../essays/highConcept";
 
 const Essays = () => {
   const lastOfUsRef = useRef();
   const driveRef = useRef();
   const chatGPTRef = useRef();
   const falseAlliesRef = useRef();
+  const highConceptRef = useRef();
 
   const location = useLocation();
   const hash = location.hash;
@@ -38,12 +40,23 @@ const Essays = () => {
     }
   });
 
+    useEffect(() => {
+    if (hash.toLowerCase().includes("highConcept")) {
+      highConceptRef?.current?.scrollIntoView();
+    }
+  });
+
   return (
     <div class="outer-container below-nav-bar">
       <div class="container">
         <div class="inner-container">
           <div class="wrapper">
             <div class="navbar ">
+              <span
+                class="nav-button"
+                onClick={() => highConceptRef.current.scrollIntoView()}
+              >
+                What High Concept Films Say About America in the 1990’s              </span>
               <span
                 class="nav-button"
                 onClick={() => chatGPTRef.current.scrollIntoView()}
@@ -74,14 +87,16 @@ const Essays = () => {
           <div className="">
             <div class="essays">
               <div class="top-margin" />
-              <ChatGpt ref={chatGPTRef} />
+              <HighConcept ref={highConceptRef} />
+              <div class="divider"></div>
+              {/* <ChatGpt ref={chatGPTRef} />
               <div class="divider"></div>
               <FalseAllies ref={falseAlliesRef} />
               <div class="divider"></div>
               <LastOfUs ref={lastOfUsRef} />
               <div class="divider"></div>
               <Drive ref={driveRef} />
-              <div class="divider"></div>
+              <div class="divider"></div> */}
             </div>
           </div>
         </div>
